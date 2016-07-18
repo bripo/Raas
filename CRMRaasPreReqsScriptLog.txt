@@ -1,0 +1,276 @@
+ 
+===========================================================================================
+ 
+				Log Started On 7/18/2016 2:42:06 PM
+ 
+===========================================================================================
+ 
+Starting CRM RaaS prerequisites sample test script (Ctrl-C to stop script at any point in time).
+ 
+Script arguments :<>.
+Script arguments :<>.
+1 - Performing local tests.
+---------------------------
+Enumerating applications on: <.>
+Total applications installed on: <.> : 48
+---------------------------------------------
+
+Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+Microsoft .NET Framework 3.5 SP1
+Microsoft SQL Server 2008 (64-bit)
+Microsoft SQL Server 2008 (64-bit)
+syslog-ng Agent for Windows (remove only)
+Microsoft URL Rewrite Module 1.1 for IIS 7 | Install Date: 20130311 | Version: 7.1
+Microsoft Baseline Security Analyzer 2.2 | Install Date: 20130927 | Version: 2.2
+Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+NetWorker | Install Date: 20150725 | Version: 8.1
+Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 | Install Date: 20140823 | Version: 10.0
+7-Zip 4.65 (x64 edition) | Install Date: 20130221 | Version: 4.65
+Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 | Install Date: 20130311 | Version: 9.0
+Microsoft Windows PowerShell snap-in for IIS 7.0 | Install Date: 20141009 | Version: 1.0
+VMware Tools | Install Date: 20140426 | Version: 9.4
+AppDynamics .NET Agent | Install Date: 20151116 | Version: 4.1
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148 | Install Date: 20130221 | Version: 9.0
+Microsoft Web Deploy 2.0 | Install Date: 20130314 | Version: 2.0
+Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+Microsoft Sync Framework Runtime v1.0 (x64) | Install Date: 20130313 | Version: 1.0
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 | Install Date: 20130221 | Version: 9.0
+Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+Microsoft Web Deploy 3.5 | Install Date: 20141007 | Version: 3.1237
+Microsoft Visual C++ 2005 Redistributable (x64) | Install Date: 20130221 | Version: 8.0
+Microsoft .NET Framework 4.5.1 | Install Date: 20160123 | Version: 4.5
+Microsoft Sync Services for ADO.NET v2.0 (x64) | Install Date: 20130313 | Version: 2.0
+Configuration Manager Client | Install Date: 20150321 | Version: 5.0
+Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+Syslog-NG Agent MSI Wrapper 4 LTS (4.0.2) x64 | Install Date: 20130221 | Version: 4.0
+Windows Azure AppFabric SDK V1.0 | Install Date: 20130315 | Version: 1.0
+Microsoft Policy Platform | Install Date: 20140823 | Version: 1.2
+Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+Microsoft .NET Framework 4.5.1
+Microsoft Application Error Reporting | Install Date: 20130313 | Version: 12.0
+Symantec Endpoint Protection | Install Date: 20150321 | Version: 12.1
+Microsoft Visual C++ 2005 Redistributable (x64) | Install Date: 20130221 | Version: 8.0
+Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+Windows Internal Database (MICROSOFT##SSEE) | Install Date: 20130822 | Version: 9.2
+Administration Pack for IIS 7.0 | Install Date: 20130314 | Version: 1.0
+Microsoft .NET Framework 3.5 SP1 | Install Date: 20131025 | Version: 3.5
+Nimsoft Robot x64 version 7.80 | Install Date: 20150822
+Puppet (64-bit) | Install Date: 20160528 | Version: 3.8
+SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+---------------------------------------------
+Now testing local call to WMI CIMv2 object...
+Local CIMv2 WMI call - OK.
+Local machine CurrentTimeZone is: 120
+Local machine LocalDateTime is: 20160718144207.469000+120
+Current user:<ICTPRDSVC> is logged on with a domain account - OK.
+Windows profile folder redirection check for user <ICTPRDSVC> - OK.
+No pending reboot for updates to be applied - OK.
+.NET Framework 4.0 installed - OK.
+Running ngen 3 times on local tools machine...
+X86 All compilation targets are up to date on local tools Machine - OK.
+X64 All compilation targets are up to date on local tools machine - OK.
+No bellow 4 hours session MaxIdleTime currently set - OK.
+No bellow 4 hours session MaxDisconnectionTime currently set - OK.
+WMI repository is consistent on local tools machine - OK.
+IIS Management script and tools installed on local tools machine - OK.
+Log Parser is installed - OK.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Microsoft® Windows Server® 2008 Standard   6.0.6002
+Locale: 0409
+System Name: SRVPARICTP10
+Time Zone: 120
+Total Physical Memory: 8588333056
+----------------------------------------------------------------------------
+/!\ Potential INCOMPATIBLE server workload or developper tools with RaaS client found on tools machine:  <SRVPARICTP10> : Affected software bellow - FAILED.
+* Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+* Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+* Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+
+----------------------------------------------------------------------------
+Local WebAdministration WMI call - OK.
+PowerShell 2.0 installed on local tools machine - OK.
+/!\ We identifed that this tools machine has potentialy incompatible software with RaaS client.
+
+Summary for tool machine checks - CRM RaaS prerequisites completed with: 15 failure(s) - FAILED.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Tools machine performance warnings: 4.
+
+/!\No remote server tests performed as no arguments found for script hence ran for local machine only.To run script against remote servers run the script with arguments.
+ 
+===========================================================================================
+ 
+				Log Started On 7/18/2016 2:44:37 PM
+ 
+===========================================================================================
+ 
+Starting CRM RaaS prerequisites sample test script (Ctrl-C to stop script at any point in time).
+ 
+Script arguments :<>.
+Script arguments :<>.
+1 - Performing local tests.
+---------------------------
+Enumerating applications on: <.>
+Total applications installed on: <.> : 48
+---------------------------------------------
+
+Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+Microsoft .NET Framework 3.5 SP1
+Microsoft SQL Server 2008 (64-bit)
+Microsoft SQL Server 2008 (64-bit)
+syslog-ng Agent for Windows (remove only)
+Microsoft URL Rewrite Module 1.1 for IIS 7 | Install Date: 20130311 | Version: 7.1
+Microsoft Baseline Security Analyzer 2.2 | Install Date: 20130927 | Version: 2.2
+Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+NetWorker | Install Date: 20150725 | Version: 8.1
+Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219 | Install Date: 20140823 | Version: 10.0
+7-Zip 4.65 (x64 edition) | Install Date: 20130221 | Version: 4.65
+Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.21022 | Install Date: 20130311 | Version: 9.0
+Microsoft Windows PowerShell snap-in for IIS 7.0 | Install Date: 20141009 | Version: 1.0
+VMware Tools | Install Date: 20140426 | Version: 9.4
+AppDynamics .NET Agent | Install Date: 20151116 | Version: 4.1
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.4148 | Install Date: 20130221 | Version: 9.0
+Microsoft Web Deploy 2.0 | Install Date: 20130314 | Version: 2.0
+Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+Microsoft Sync Framework Runtime v1.0 (x64) | Install Date: 20130313 | Version: 1.0
+Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161 | Install Date: 20130221 | Version: 9.0
+Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+Microsoft Web Deploy 3.5 | Install Date: 20141007 | Version: 3.1237
+Microsoft Visual C++ 2005 Redistributable (x64) | Install Date: 20130221 | Version: 8.0
+Microsoft .NET Framework 4.5.1 | Install Date: 20160123 | Version: 4.5
+Microsoft Sync Services for ADO.NET v2.0 (x64) | Install Date: 20130313 | Version: 2.0
+Configuration Manager Client | Install Date: 20150321 | Version: 5.0
+Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+Syslog-NG Agent MSI Wrapper 4 LTS (4.0.2) x64 | Install Date: 20130221 | Version: 4.0
+Windows Azure AppFabric SDK V1.0 | Install Date: 20130315 | Version: 1.0
+Microsoft Policy Platform | Install Date: 20140823 | Version: 1.2
+Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+Microsoft .NET Framework 4.5.1
+Microsoft Application Error Reporting | Install Date: 20130313 | Version: 12.0
+Symantec Endpoint Protection | Install Date: 20150321 | Version: 12.1
+Microsoft Visual C++ 2005 Redistributable (x64) | Install Date: 20130221 | Version: 8.0
+Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+Windows Internal Database (MICROSOFT##SSEE) | Install Date: 20130822 | Version: 9.2
+Administration Pack for IIS 7.0 | Install Date: 20130314 | Version: 1.0
+Microsoft .NET Framework 3.5 SP1 | Install Date: 20131025 | Version: 3.5
+Nimsoft Robot x64 version 7.80 | Install Date: 20150822
+Puppet (64-bit) | Install Date: 20160528 | Version: 3.8
+SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+---------------------------------------------
+Now testing local call to WMI CIMv2 object...
+Local CIMv2 WMI call - OK.
+Local machine CurrentTimeZone is: 120
+Local machine LocalDateTime is: 20160718144438.430000+120
+Current user:<ICTPRDSVC> is logged on with a domain account - OK.
+Windows profile folder redirection check for user <ICTPRDSVC> - OK.
+No pending reboot for updates to be applied - OK.
+.NET Framework 4.0 installed - OK.
+Running ngen 3 times on local tools machine...
+X86 All compilation targets are up to date on local tools Machine - OK.
+X64 All compilation targets are up to date on local tools machine - OK.
+No bellow 4 hours session MaxIdleTime currently set - OK.
+No bellow 4 hours session MaxDisconnectionTime currently set - OK.
+WMI repository is consistent on local tools machine - OK.
+IIS Management script and tools installed on local tools machine - OK.
+Log Parser is installed - OK.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Current Clock Speed: 2267
+Maximum Clock Speed: 2267
+Number of Cores: 1
+This Machine has 64-Bit Processor and Running 64-Bit OS
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Microsoft® Windows Server® 2008 Standard   6.0.6002
+Locale: 0409
+System Name: SRVPARICTP10
+Time Zone: 120
+Total Physical Memory: 8588333056
+----------------------------------------------------------------------------
+/!\ Potential INCOMPATIBLE server workload or developper tools with RaaS client found on tools machine:  <SRVPARICTP10> : Affected software bellow - FAILED.
+* Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+* Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+* Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+
+----------------------------------------------------------------------------
+Local WebAdministration WMI call - OK.
+PowerShell 2.0 installed on local tools machine - OK.
+/!\ We identifed that this tools machine has potentialy incompatible software with RaaS client.
+
+Summary for tool machine checks - CRM RaaS prerequisites completed with: 15 failure(s) - FAILED.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Tools machine performance warnings: 4.
+
+/!\No remote server tests performed as no arguments found for script hence ran for local machine only.To run script against remote servers run the script with arguments.

@@ -1,0 +1,2218 @@
+Workstation statistics and uptime -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+Workstation Statistics for \\SRVPARICTP10
+
+
+Statistics since 5/28/2016 9:29:19 AM
+
+
+  Bytes received                               114383734
+  Server Message Blocks (SMBs) received        982
+  Bytes transmitted                            118046
+  Server Message Blocks (SMBs) transmitted     385
+  Read operations                              18881
+  Write operations                             675
+  Raw reads denied                             0
+  Raw writes denied                            0
+
+  Network errors                               0
+  Connections made                             22
+  Reconnections made                           0
+  Server disconnects                           1
+
+  Sessions started                             0
+  Hung sessions                                0
+  Failed sessions                              0
+  Failed operations                            0
+  Use count                                    8490
+  Failed use count                             16
+
+The command completed successfully.
+
+lmhosts file -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+hosts file -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+# Copyright (c) 1993-2006 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+::1             localhost
+route print -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+===========================================================================
+Interface List
+ 10 ...00 50 56 83 15 f2 ...... VMware PCI Ethernet Adapter
+  1 ........................... Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      184.14.64.1    184.14.70.118     11
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+      184.14.64.0    255.255.248.0         On-link     184.14.70.118    266
+    184.14.70.118  255.255.255.255         On-link     184.14.70.118    266
+    184.14.71.255  255.255.255.255         On-link     184.14.70.118    266
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link     184.14.70.118    266
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link     184.14.70.118    266
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+          0.0.0.0          0.0.0.0      184.14.64.1       1
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+  1    306 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+Tcpip Parameters -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters
+    ICSDomain    REG_SZ    mshome.net
+    SyncDomainWithMembership    REG_DWORD    0x0
+    NV Hostname    REG_SZ    SRVPARICTP10
+    DataBasePath    REG_EXPAND_SZ    %SystemRoot%\System32\drivers\etc
+    NameServer    REG_SZ    
+    ForwardBroadcasts    REG_DWORD    0x0
+    IPEnableRouter    REG_DWORD    0x0
+    Domain    REG_SZ    fr.world.socgen
+    Hostname    REG_SZ    SRVPARICTP10
+    SearchList    REG_SZ    fr.world.socgen,eur.msd.world.socgen,msd.world.socgen
+    UseDomainNameDevolution    REG_DWORD    0x1
+    EnableICMPRedirect    REG_DWORD    0x1
+    DeadGWDetectDefault    REG_DWORD    0x1
+    DontAddDefaultGatewayDefault    REG_DWORD    0x0
+    NV Domain    REG_SZ    fr.world.socgen
+    EnableTCPChimney    REG_DWORD    0x0
+    EnableRSS    REG_DWORD    0x0
+    EnableTCPA    REG_DWORD    0x0
+    ReservedPorts    REG_MULTI_SZ    1433-1434
+    KeepAliveTime    REG_DWORD    0xdbba0
+    KeepAliveInterval    REG_DWORD    0x2710
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Adapters
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\DNSRegisteredAdapters
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\PersistentRoutes
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Winsock
+ipconfig /all -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : SRVPARICTP10
+   Primary Dns Suffix  . . . . . . . : fr.world.socgen
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : fr.world.socgen
+                                       eur.msd.world.socgen
+                                       msd.world.socgen
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware PCI Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-50-56-83-15-F2
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 184.14.70.118(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.248.0
+   Default Gateway . . . . . . . . . : 184.14.64.1
+   DNS Servers . . . . . . . . . . . : 184.6.18.39
+                                       184.10.23.17
+                                       191.254.31.175
+   Primary WINS Server . . . . . . . : 184.6.17.253
+   Secondary WINS Server . . . . . . : 191.254.30.252
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+DNS Cache -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+Windows IP Configuration
+
+Could not display the DNS Resolver Cache.
+nbtstat -n -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:8172         127.0.0.1:49289        ESTABLISHED
+  TCP    127.0.0.1:49289        127.0.0.1:8172         ESTABLISHED
+  TCP    127.0.0.1:60606        127.0.0.1:60607        ESTABLISHED
+  TCP    127.0.0.1:60607        127.0.0.1:60606        ESTABLISHED
+  TCP    127.0.0.1:60608        127.0.0.1:60609        ESTABLISHED
+  TCP    127.0.0.1:60609        127.0.0.1:60608        ESTABLISHED
+  TCP    127.0.0.1:60610        127.0.0.1:60611        ESTABLISHED
+  TCP    127.0.0.1:60611        127.0.0.1:60610        ESTABLISHED
+  TCP    127.0.0.1:60612        127.0.0.1:60613        ESTABLISHED
+  TCP    127.0.0.1:60613        127.0.0.1:60612        ESTABLISHED
+  TCP    127.0.0.1:60614        127.0.0.1:60615        ESTABLISHED
+  TCP    127.0.0.1:60615        127.0.0.1:60614        ESTABLISHED
+  TCP    127.0.0.1:60616        127.0.0.1:60617        ESTABLISHED
+  TCP    127.0.0.1:60617        127.0.0.1:60616        ESTABLISHED
+  TCP    127.0.0.1:60618        127.0.0.1:60619        ESTABLISHED
+  TCP    127.0.0.1:60619        127.0.0.1:60618        ESTABLISHED
+  TCP    127.0.0.1:60620        127.0.0.1:60621        ESTABLISHED
+  TCP    127.0.0.1:60621        127.0.0.1:60620        ESTABLISHED
+  TCP    127.0.0.1:60622        127.0.0.1:60623        ESTABLISHED
+  TCP    127.0.0.1:60623        127.0.0.1:60622        ESTABLISHED
+  TCP    127.0.0.1:63347        127.0.0.1:63348        ESTABLISHED
+  TCP    127.0.0.1:63348        127.0.0.1:63347        ESTABLISHED
+  TCP    127.0.0.1:63349        127.0.0.1:63350        ESTABLISHED
+  TCP    127.0.0.1:63350        127.0.0.1:63349        ESTABLISHED
+  TCP    184.14.70.118:3389     184.50.32.239:55176    ESTABLISHED
+  TCP    184.14.70.118:9990     184.14.70.118:53830    ESTABLISHED
+  TCP    184.14.70.118:9990     184.14.70.118:53832    ESTABLISHED
+  TCP    184.14.70.118:9990     184.14.70.118:53834    ESTABLISHED
+  TCP    184.14.70.118:9990     184.14.70.118:53836    ESTABLISHED
+  TCP    184.14.70.118:9991     184.14.70.118:53831    ESTABLISHED
+  TCP    184.14.70.118:9991     184.14.70.118:53833    ESTABLISHED
+  TCP    184.14.70.118:9991     184.14.70.118:53835    ESTABLISHED
+  TCP    184.14.70.118:9991     184.14.70.118:53837    ESTABLISHED
+  TCP    184.14.70.118:10470    192.160.73.96:54883    ESTABLISHED
+  TCP    184.14.70.118:11680    192.160.73.96:54894    ESTABLISHED
+  TCP    184.14.70.118:49286    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:53162    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:53435    184.5.3.112:1434       ESTABLISHED
+  TCP    184.14.70.118:53438    184.5.3.112:1434       ESTABLISHED
+  TCP    184.14.70.118:53439    184.16.16.141:80       ESTABLISHED
+  TCP    184.14.70.118:53830    184.14.70.118:9990     ESTABLISHED
+  TCP    184.14.70.118:53831    184.14.70.118:9991     ESTABLISHED
+  TCP    184.14.70.118:53832    184.14.70.118:9990     ESTABLISHED
+  TCP    184.14.70.118:53833    184.14.70.118:9991     ESTABLISHED
+  TCP    184.14.70.118:53834    184.14.70.118:9990     ESTABLISHED
+  TCP    184.14.70.118:53835    184.14.70.118:9991     ESTABLISHED
+  TCP    184.14.70.118:53836    184.14.70.118:9990     ESTABLISHED
+  TCP    184.14.70.118:53837    184.14.70.118:9991     ESTABLISHED
+  TCP    184.14.70.118:54204    184.7.22.95:80         ESTABLISHED
+  TCP    184.14.70.118:54348    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:54543    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:54670    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:55355    184.5.3.112:1434       ESTABLISHED
+  TCP    184.14.70.118:55399    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55400    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55401    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55402    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55403    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55404    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55405    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55406    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55407    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55408    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55409    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55410    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55411    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:55534    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:55832    184.7.122.26:8090      ESTABLISHED
+  TCP    184.14.70.118:56001    184.7.122.26:8090      ESTABLISHED
+  TCP    184.14.70.118:56002    184.16.16.141:80       ESTABLISHED
+  TCP    184.14.70.118:56006    184.7.122.26:8090      ESTABLISHED
+  TCP    184.14.70.118:56007    184.16.16.141:80       ESTABLISHED
+  TCP    184.14.70.118:56207    184.7.122.26:8090      ESTABLISHED
+  TCP    184.14.70.118:56208    184.16.16.141:80       ESTABLISHED
+  TCP    184.14.70.118:56669    192.160.73.96:9200     ESTABLISHED
+  TCP    184.14.70.118:58453    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:58776    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:59123    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:60716    184.7.69.175:9300      ESTABLISHED
+  TCP    184.14.70.118:62497    184.5.3.112:1434       ESTABLISHED
+  TCP    184.14.70.118:63351    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63352    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63353    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63354    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63355    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63356    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63357    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63358    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63359    184.7.69.175:7500      ESTABLISHED
+  TCP    184.14.70.118:63554    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:63999    184.14.71.70:10123     ESTABLISHED
+  TCP    184.14.70.118:64831    184.5.3.112:1434       ESTABLISHED
+  TCP    184.14.70.118:64864    184.6.18.39:53         TIME_WAIT
+  TCP    184.14.70.118:65119    184.13.34.40:1439      ESTABLISHED
+  TCP    184.14.70.118:65125    192.160.73.96:9200     ESTABLISHED
+  TCP    184.14.70.118:65152    184.6.18.39:53         TIME_WAIT
+nbtstat -c -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+    
+Local Area Connection:
+Node IpAddress: [184.14.70.118] Scope Id: []
+
+    No names in cache
+Malware detection Pre Win10 -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+Malware detection Win10+ -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+File D:\RaaS-18-07-2016\Scripts\RaaSWindowsDefender.ps1 cannot be loaded becaus
+e the execution of scripts is disabled on this system. Please see "get-help abo
+ut_signing" for more details.
+    + CategoryInfo          : NotSpecified: (:) [], ParentContainsErrorRecordE 
+   xception
+    + FullyQualifiedErrorId : RuntimeException
+ 
+Processes and Modules -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+Image Name                     PID Modules                                     
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       512 ntdll.dll                                   
+csrss.exe                      596 ntdll.dll, CSRSRV.dll, basesrv.dll,         
+                                   winsrv.dll, USER32.dll, KERNEL32.dll,       
+                                   GDI32.dll, ADVAPI32.dll, RPCRT4.dll,        
+                                   LPK.DLL, USP10.dll, msvcrt.dll, sxs.dll     
+wininit.exe                    644 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, USERENV.dll, Secur32.dll,       
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   apphelp.dll, WS2_32.dll, NSI.dll,           
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   CRYPT32.dll, MSASN1.dll, credssp.dll,       
+                                   schannel.dll, NETAPI32.dll, PSAPI.DLL       
+csrss.exe                      656 ntdll.dll, CSRSRV.dll, basesrv.dll,         
+                                   winsrv.dll, USER32.dll, KERNEL32.dll,       
+                                   GDI32.dll, ADVAPI32.dll, RPCRT4.dll,        
+                                   LPK.DLL, USP10.dll, msvcrt.dll, sxs.dll     
+winlogon.exe                   704 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, Secur32.dll, WINSTA.dll,        
+                                   PSAPI.DLL, USERENV.dll, IMM32.DLL,          
+                                   MSCTF.dll, LPK.DLL, USP10.dll, apphelp.dll, 
+                                   NTMARTA.DLL, WLDAP32.dll, WS2_32.dll,       
+                                   NSI.dll, SAMLIB.dll, ole32.dll, SHSVCS.dll  
+services.exe                   748 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, USERENV.dll, Secur32.dll,       
+                                   SCESRV.dll, AUTHZ.dll, NETAPI32.dll,        
+                                   PSAPI.DLL, NCObjAPI.DLL, IMM32.DLL,         
+                                   MSCTF.dll, LPK.DLL, USP10.dll, CRYPT32.dll, 
+                                   MSASN1.dll, credssp.dll, schannel.dll,      
+                                   apphelp.dll, NTMARTA.DLL, WLDAP32.dll,      
+                                   WS2_32.dll, NSI.dll, SAMLIB.dll, ole32.dll, 
+                                   Comctl32.dll, SHLWAPI.dll, mswsock.dll,     
+                                   wshtcpip.dll, wship6.dll, ESENT.dll,        
+                                   SETUPAPI.dll, OLEAUT32.dll, Cabinet.dll,    
+                                   kerberos.dll, cryptdll.dll, bcrypt.dll,     
+                                   msv1_0.dll                                  
+lsass.exe                      764 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, LSASRV.dll,         
+                                   Secur32.dll, USER32.dll, GDI32.dll,         
+                                   SAMSRV.dll, cryptdll.dll, DNSAPI.dll,       
+                                   WS2_32.dll, NSI.dll, NETAPI32.dll,          
+                                   PSAPI.DLL, SAMLIB.dll, MSASN1.dll,          
+                                   NTDSAPI.dll, WLDAP32.dll, FeClient.dll,     
+                                   MPR.dll, USERENV.dll, CRYPT32.dll, slc.dll, 
+                                   SYSNTFY.dll, wevtapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, WINNSI.DLL, dhcpcsvc6.DLL,    
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   cngaudit.dll, AUTHZ.dll, ncrypt.dll,        
+                                   BCRYPT.dll, credssp.dll, msprivs.dll,       
+                                   kerberos.dll, mswsock.dll, wship6.dll,      
+                                   msv1_0.dll, netlogon.dll, WINBRAND.dll,     
+                                   schannel.dll, wdigest.dll, rsaenh.dll,      
+                                   tspkg.dll, GPAPI.dll, setupapi.dll,         
+                                   OLEAUT32.dll, ole32.dll, scecli.dll,        
+                                   RASSFM.dll, wshtcpip.dll, NLAapi.dll,       
+                                   napinsp.dll, winrnr.dll, rasadhlp.dll,      
+                                   dssenh.dll, NTMARTA.DLL, cryptnet.dll,      
+                                   SensApi.dll, SHLWAPI.dll, comctl32.dll,     
+                                   keyiso.dll                                  
+lsm.exe                        780 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, SYSNTFY.dll,        
+                                   WMsgAPI.dll, secur32.dll, CRYPT32.dll,      
+                                   USER32.dll, GDI32.dll, MSASN1.dll,          
+                                   USERENV.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, credssp.dll, schannel.dll,       
+                                   NETAPI32.dll, PSAPI.DLL, ole32.dll,         
+                                   NTMARTA.DLL, WLDAP32.dll, WS2_32.dll,       
+                                   NSI.dll, SAMLIB.dll, CLBCatQ.DLL,           
+                                   OLEAUT32.dll, rsaenh.dll, lsmproxy.dll      
+svchost.exe                    936 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, umpnpmgr.dll,     
+                                   USER32.dll, GDI32.dll, USERENV.dll,         
+                                   Secur32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, POWRPROF.dll, GPAPI.dll,         
+                                   slc.dll, rpcss.dll, WS2_32.dll, NSI.dll,    
+                                   FirewallAPI.dll, OLEAUT32.dll, ole32.dll,   
+                                   VERSION.dll, CRYPT32.dll, MSASN1.dll,       
+                                   credssp.dll, schannel.dll, NETAPI32.dll,    
+                                   PSAPI.DLL, CLBCatQ.DLL, SETUPAPI.dll,       
+                                   apphelp.dll, NTMARTA.DLL, WLDAP32.dll,      
+                                   SAMLIB.dll, WINSTA.dll, Cabinet.dll,        
+                                   WTSAPI32.dll                                
+svchost.exe                   1000 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, rpcss.dll,        
+                                   WS2_32.dll, NSI.dll, Secur32.dll,           
+                                   FirewallAPI.dll, USER32.dll, GDI32.dll,     
+                                   OLEAUT32.dll, ole32.dll, VERSION.dll,       
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   credssp.dll, schannel.dll, NETAPI32.dll,    
+                                   PSAPI.DLL, rsaenh.dll, mswsock.dll,         
+                                   wshtcpip.dll, wship6.dll, CLBCatQ.DLL,      
+                                   fwpuclnt.dll, NTMARTA.DLL, WLDAP32.dll,     
+                                   SAMLIB.dll, kerberos.dll, cryptdll.dll      
+LogonUI.exe                    412 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ole32.dll, GDI32.dll, USER32.dll,           
+                                   ADVAPI32.dll, RPCRT4.dll, IMM32.DLL,        
+                                   MSCTF.dll, LPK.DLL, USP10.dll, CLBCatQ.DLL, 
+                                   OLEAUT32.dll, authui.dll, Secur32.dll,      
+                                   COMCTL32.dll, SHLWAPI.dll, MSIMG32.dll,     
+                                   UxTheme.dll, gdiplus.dll, DUser.dll,        
+                                   xmllite.dll, WINBRAND.dll,                  
+                                   SmartcardCredentialProvider.dll,            
+                                   rasplap.dll, NETAPI32.dll, PSAPI.DLL,       
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   RASAPI32.dll, rasman.dll, WS2_32.dll,       
+                                   NSI.dll, TAPI32.dll, rtutils.dll,           
+                                   WINMM.dll, OLEACC.dll, SHELL32.dll,         
+                                   WinSCard.dll, WTSAPI32.dll, WINSTA.dll,     
+                                   rsaenh.dll, HID.DLL, SETUPAPI.dll,          
+                                   WINTRUST.dll, imagehlp.dll                  
+svchost.exe                    372 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, wevtsvc.dll,      
+                                   USERENV.dll, Secur32.dll, USER32.dll,       
+                                   GDI32.dll, VERSION.dll, GPAPI.dll, slc.dll, 
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   CRYPT32.dll, MSASN1.dll, credssp.dll,       
+                                   schannel.dll, NETAPI32.dll, PSAPI.DLL,      
+                                   WS2_32.dll, NSI.dll, mswsock.dll,           
+                                   wshtcpip.dll, wship6.dll, NTMARTA.DLL,      
+                                   WLDAP32.dll, SAMLIB.dll, ole32.dll,         
+                                   lmhsvc.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   DNSAPI.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   NLAapi.dll, napinsp.dll, winrnr.dll,        
+                                   rasadhlp.dll                                
+svchost.exe                     12 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, gpsvc.dll, Secur32.dll,          
+                                   NETAPI32.dll, NTDSAPI.dll, DNSAPI.dll,      
+                                   WTSAPI32.dll, OLEAUT32.dll, USERENV.dll,    
+                                   GPAPI.dll, slc.dll, AUTHZ.dll, SYSNTFY.dll, 
+                                   WINSTA.dll, nlaapi.dll, IPHLPAPI.DLL,       
+                                   dhcpcsvc.DLL, WINNSI.DLL, dhcpcsvc6.DLL,    
+                                   CRYPT32.DLL, MSASN1.dll, mswsock.dll,       
+                                   wshtcpip.dll, credssp.dll, schannel.dll,    
+                                   wship6.dll, napinsp.dll, winrnr.dll,        
+                                   rasadhlp.dll, kerberos.dll, cryptdll.dll,   
+                                   bcrypt.dll, CLBCatQ.DLL, wbemprox.dll,      
+                                   wbemcomn.dll, rsaenh.dll, wbemsvc.dll,      
+                                   fastprox.dll, SHLWAPI.dll, comctl32.dll,    
+                                   Comctl32.dll, cscapi.dll, Cabinet.dll       
+svchost.exe                    660 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, profsvc.dll, SYSNTFY.dll,        
+                                   USERENV.dll, Secur32.dll, nlaapi.dll,       
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, ATL.DLL,         
+                                   sens.dll, WTSAPI32.dll, shsvcs.dll,         
+                                   rsaenh.dll, CLBCatQ.DLL, OLEAUT32.dll,      
+                                   schedsvc.dll, SHLWAPI.dll, wevtapi.dll,     
+                                   AUTHZ.dll, ktmw32.dll, comctl32.dll,        
+                                   COMCTL32.dll, CRYPT32.dll, MSASN1.dll,      
+                                   credssp.dll, SETUPAPI.dll, schannel.dll,    
+                                   NETAPI32.dll, WINTRUST.dll, imagehlp.dll,   
+                                   taskcomp.dll, VERSION.dll, mswsock.dll,     
+                                   wshtcpip.dll, wship6.dll, WINSTA.dll,       
+                                   aelupsvc.dll, apphelp.dll, ikeext.dll,      
+                                   fwpuclnt.dll, ncrypt.dll, BCRYPT.dll,       
+                                   seclogon.dll, wmisvc.dll, wbemcomn.dll,     
+                                   VSSAPI.DLL, vsstrace.dll, XmlLite.dll,      
+                                   MPR.dll, PROPSYS.dll, wbemcore.dll,         
+                                   esscli.dll, FastProx.dll, NTDSAPI.dll,      
+                                   wbemsvc.dll, wmiutils.dll, repdrvfs.dll,    
+                                   wmiprvsd.dll, NCObjAPI.DLL, wbemess.dll,    
+                                   srvsvc.dll, slc.dll, SSCORE.DLL,            
+                                   FirewallAPI.DLL, CLUSAPI.DLL, cryptdll.dll, 
+                                   ACTIVEDS.dll, adsldpc.dll, credui.dll,      
+                                   SHELL32.dll, RESUTILS.DLL, tschannel.dll,   
+                                   SXS.DLL, ncprov.dll, krnlprov.dll, WMI.dll, 
+                                   sessenv.dll, GPAPI.dll, napinsp.dll,        
+                                   winrnr.dll, rasadhlp.dll, kerberos.dll,     
+                                   RasApi32.dll, rasman.dll, TAPI32.dll,       
+                                   rtutils.dll, WINMM.dll, OLEACC.dll,         
+                                   qmgr.dll, SHFOLDER.dll, WINHTTP.dll,        
+                                   bitsperf.dll, bitsigd.dll, wuaueng.dll,     
+                                   ESENT.dll, WINSPOOL.DRV, Cabinet.dll,       
+                                   mspatcha.dll, WMsgAPI.dll, wer.dll,         
+                                   SensApi.dll, msi.dll, advpack.dll,          
+                                   msxml3.dll, dssenh.dll, urlmon.dll,         
+                                   iertutil.dll, WININET.dll, Normaliz.dll,    
+                                   appmgmts.dll                                
+SLsvc.exe                      504 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, slc.dll,            
+                                   USER32.dll, GDI32.dll, DNSAPI.dll,          
+                                   WS2_32.dll, NSI.dll, IMM32.DLL, MSCTF.dll,  
+                                   LPK.DLL, USP10.dll, rsaenh.dll,             
+                                   SETUPAPI.dll, OLEAUT32.dll, ole32.dll,      
+                                   WINTRUST.dll, CRYPT32.dll, MSASN1.dll,      
+                                   USERENV.dll, Secur32.dll, imagehlp.dll,     
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   NLAapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll                                
+svchost.exe                   1096 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, es.dll, OLEAUT32.dll,            
+                                   PROPSYS.dll, rsaenh.dll, CLBCatQ.DLL,       
+                                   nsisvc.dll, secur32.dll, CRYPT32.dll,       
+                                   MSASN1.dll, USERENV.dll, credssp.dll,       
+                                   schannel.dll, NETAPI32.dll, wkssvc.dll,     
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, NTDSAPI.dll,     
+                                   WINBRAND.dll, mswsock.dll, wshtcpip.dll,    
+                                   wship6.dll, NLAapi.dll, napinsp.dll,        
+                                   winrnr.dll, rasadhlp.dll, SXS.DLL,          
+                                   w32time.dll, cryptdll.dll, GPAPI.dll,       
+                                   slc.dll, netprofm.dll, npmproxy.dll,        
+                                   SHLWAPI.dll, comctl32.dll                   
+svchost.exe                   1188 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, uxsms.dll, WTSAPI32.dll,         
+                                   USERENV.dll, Secur32.dll, WINSTA.dll,       
+                                   netman.dll, OLEAUT32.dll, RASAPI32.dll,     
+                                   rasman.dll, NETAPI32.dll, TAPI32.dll,       
+                                   SHLWAPI.dll, rtutils.dll, WINMM.dll,        
+                                   OLEACC.dll, SHELL32.dll, WINNSI.DLL,        
+                                   comctl32.dll, CLBCatQ.DLL, rsaenh.dll,      
+                                   umrdp.dll, WINSPOOL.DRV, SETUPAPI.dll,      
+                                   slc.dll, netshell.dll, IPHLPAPI.DLL,        
+                                   dhcpcsvc.DLL, DNSAPI.dll, dhcpcsvc6.DLL,    
+                                   nlaapi.dll, umb.dll, ATL.DLL, mswsock.dll,  
+                                   hnetcfg.dll, GPAPI.dll, WINHTTP.dll,        
+                                   WINTRUST.dll, CRYPT32.dll, MSASN1.dll,      
+                                   imagehlp.dll, wshtcpip.dll, netcfgx.dll,    
+                                   Cabinet.dll, wbemprox.dll, wbemcomn.dll,    
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   apphelp.dll, RASDLG.dll, MPRAPI.dll,        
+                                   ACTIVEDS.dll, adsldpc.dll, credui.dll       
+svchost.exe                   1304 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, bfe.dll,          
+                                   AUTHZ.dll, Secur32.dll, USER32.dll,         
+                                   GDI32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, pla.dll, OLEAUT32.dll,           
+                                   ole32.dll, pdh.dll, tdh.dll, NSI.dll,       
+                                   SHLWAPI.dll, CRYPT32.dll, MSASN1.dll,       
+                                   USERENV.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,    
+                                   DNSAPI.dll, WS2_32.dll, WINNSI.DLL,         
+                                   dhcpcsvc6.DLL, SHELL32.dll, wevtapi.dll,    
+                                   PSAPI.DLL, comctl32.dll                     
+AppDynamics.Coordinator.e     1420 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, rsaenh.dll, VERSION.dll,   
+                                   clrjit.dll, System.ni.dll,                  
+                                   System.ServiceProcess.ni.dll,               
+                                   nlssorting.dll, AppDynamics.Agent.Log.dll,  
+                                   System.Configuration.ni.dll,                
+                                   System.EnterpriseServices.ni.dll,           
+                                   System.Xml.ni.dll, urlmon.dll,              
+                                   iertutil.dll, NTMARTA.DLL, WLDAP32.dll,     
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   Secur32.dll, System.Core.ni.dll,            
+                                   System.Data.ni.dll, System.Data.dll,        
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   AppDynamics.Agent.Conf.dll,                 
+                                   AppDynamics.ProtoBufNet.dll,                
+                                   System.Management.ni.dll,                   
+                                   System.Web.ni.dll,                          
+                                   Microsoft.Web.Administration.dll,           
+                                   nativerd.dll, IISUTIL.dll, XmlLite.dll,     
+                                   IISRES.DLL, mlang.dll, bcrypt.dll,          
+                                   AppDynamics.Agent.Mono.dll,                 
+                                   wminet_utils.dll, wmiutils.dll,             
+                                   wbemcomn.dll, wbemprox.dll, rasapi32.dll,   
+                                   rasman.dll, NETAPI32.dll, TAPI32.dll,       
+                                   rtutils.dll, WINMM.dll, OLEACC.dll,         
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   winhttp.dll, NLAapi.dll, IPHLPAPI.DLL,      
+                                   dhcpcsvc.DLL, DNSAPI.dll, WINNSI.DLL,       
+                                   dhcpcsvc6.DLL, napinsp.dll, winrnr.dll,     
+                                   rasadhlp.dll,                               
+                                   AppDynamics.Agent.Mono.Cecil.dll,           
+                                   diasymreader.dll, wbemsvc.dll,              
+                                   fastprox.dll, NTDSAPI.dll, perfcounter.dll, 
+                                   pdh.dll, aspnet_counters.dll,               
+                                   aspnet_perf.dll, MSVCR120_CLR0400.dll,      
+                                   aspnet_perf.dll, MSVCR80.dll,               
+                                   Microsoft.VisualBasic.ni.dll, perfos.dll,   
+                                   Perfctrs.dll, perfdisk.dll                  
+EventCollectorService.exe     1540 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, rsaenh.dll, clrjit.dll,    
+                                   System.ni.dll,                              
+                                   System.ServiceProcess.ni.dll,               
+                                   Microsoft.ApplicationServer.Monitoring.dll, 
+                                   Microsoft.ApplicationServer.Core.dll,       
+                                   Microsoft.ApplicationServer.ConfigurationRea
+                                   der.dll, System.Xml.ni.dll, nlssorting.dll, 
+                                   nativerd.dll, IISUTIL.dll, CRYPT32.dll,     
+                                   MSASN1.dll, USERENV.dll, Secur32.dll,       
+                                   WS2_32.dll, NSI.dll, XmlLite.dll,           
+                                   IISRES.DLL, mlang.dll,                      
+                                   System.Configuration.ni.dll,                
+                                   System.Core.ni.dll, System.Data.ni.dll,     
+                                   System.Data.dll, System.Numerics.ni.dll,    
+                                   System.Data.OracleClient.ni.dll,            
+                                   System.Data.OracleClient.dll,               
+                                   Microsoft.ApplicationServer.Monitoring.resou
+                                   rces.dll, System.Transactions.ni.dll,       
+                                   System.Transactions.dll,                    
+                                   System.EnterpriseServices.ni.dll,           
+                                   System.EnterpriseServices.Wrapper.dll,      
+                                   System.EnterpriseServices.Wrapper.dll,      
+                                   security.dll, credssp.dll, schannel.dll,    
+                                   NETAPI32.dll, PSAPI.DLL, kerberos.dll,      
+                                   cryptdll.dll, msv1_0.dll, ntdsapi.dll,      
+                                   DNSAPI.dll, WLDAP32.dll, mswsock.dll,       
+                                   wshtcpip.dll, wship6.dll, NLAapi.dll,       
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, WINNSI.DLL,     
+                                   dhcpcsvc6.DLL, napinsp.dll, winrnr.dll,     
+                                   rasadhlp.dll, dssenh.dll, ncrypt.dll,       
+                                   bcrypt.dll                                  
+WorkflowManagementService     1596 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, rsaenh.dll, clrjit.dll,    
+                                   Microsoft.ApplicationServer.ConfigurationRea
+                                   der.dll, System.ni.dll,                     
+                                   System.ServiceProcess.ni.dll,               
+                                   Microsoft.ApplicationServer.Core.dll,       
+                                   ws2_32.dll, NSI.dll, mswsock.dll,           
+                                   wshtcpip.dll, wship6.dll,                   
+                                   System.Configuration.ni.dll,                
+                                   System.Core.ni.dll, System.Xml.ni.dll,      
+                                   nlssorting.dll, NLAapi.dll, IPHLPAPI.DLL,   
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   xolehlp.dll, VERSION.dll, NETAPI32.dll,     
+                                   MSDTCPRX.DLL, MTXCLU.DLL, CLUSAPI.dll,      
+                                   NTDSAPI.dll, cryptdll.dll, ACTIVEDS.dll,    
+                                   adsldpc.dll, credui.dll, ATL.DLL,           
+                                   RESUTILS.dll, USERENV.dll, bcrypt.dll,      
+                                   ktmw32.dll, CRYPT32.dll, MSASN1.dll,        
+                                   credssp.dll, schannel.dll, rasadhlp.dll,    
+                                   nativerd.dll, IISUTIL.dll, XmlLite.dll,     
+                                   IISRES.DLL, mlang.dll,                      
+                                   Microsoft.ApplicationServer.StoreManagement.
+                                   dll,                                        
+                                   Microsoft.ApplicationServer.StoreProvider.dl
+                                   l, Microsoft.Web.Administration.dll,        
+                                   Microsoft.ApplicationServer.StoreManagement.
+                                   resources.dll, System.Data.ni.dll,          
+                                   System.Data.dll,                            
+                                   System.Transactions.ni.dll,                 
+                                   System.Transactions.dll,                    
+                                   System.EnterpriseServices.ni.dll,           
+                                   System.EnterpriseServices.Wrapper.dll,      
+                                   System.EnterpriseServices.Wrapper.dll,      
+                                   security.dll, kerberos.dll, msv1_0.dll,     
+                                   dssenh.dll, ncrypt.dll,                     
+                                   System.Runtime.DurableInstancing.ni.dll,    
+                                   System.Activities.DurableInstancing.ni.dll, 
+                                   System.ServiceModel.Internals.ni.dll,       
+                                   System.Xml.Linq.ni.dll,                     
+                                   System.Activities.ni.dll,                   
+                                   System.Runtime.Serialization.ni.dll,        
+                                   SMDiagnostics.ni.dll, clrcompression.dll,   
+                                   urlmon.dll, iertutil.dll, diasymreader.dll, 
+                                   WorkflowManagementService.resources.dll     
+svchost.exe                   1680 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, apphostsvc.dll,   
+                                   ole32.dll, GDI32.dll, USER32.dll,           
+                                   SHELL32.dll, SHLWAPI.dll, sfc.dll,          
+                                   sfc_os.dll, SETUPAPI.dll, OLEAUT32.dll,     
+                                   IISUTIL.dll, CRYPT32.dll, MSASN1.dll,       
+                                   USERENV.dll, Secur32.dll, WS2_32.dll,       
+                                   NSI.dll, nativerd.dll, XmlLite.dll,         
+                                   VSSAPI.DLL, ATL.DLL, vsstrace.dll,          
+                                   AUTHZ.dll, NETAPI32.dll, PSAPI.DLL,         
+                                   MPR.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,     
+                                   USP10.dll, comctl32.dll, IISRES.DLL,        
+                                   rsaenh.dll, CLBCatQ.DLL, mlang.dll,         
+                                   SAMLIB.dll, es.dll, PROPSYS.dll, SXS.DLL,   
+                                   vss_ps.dll, msxml3.dll, bcrypt.dll,         
+                                   Cabinet.dll                                 
+awservices.exe                1696 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+CISVC.EXE                     1788 ntdll.dll, kernel32.dll, query.dll,         
+                                   msvcrt.dll, USER32.dll, GDI32.dll,          
+                                   ADVAPI32.dll, RPCRT4.dll, OLEAUT32.dll,     
+                                   ole32.dll, SHELL32.dll, SHLWAPI.dll,        
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   comctl32.dll, NTMARTA.DLL, WLDAP32.dll,     
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   CLBCatQ.DLL                                 
+svchost.exe                   1924 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, cryptsvc.dll, OLEAUT32.dll,      
+                                   VSSAPI.DLL, ATL.DLL, vsstrace.dll,          
+                                   AUTHZ.dll, XmlLite.dll, NETAPI32.dll,       
+                                   MPR.dll, SETUPAPI.dll, CRYPTNET.dll,        
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, SensApi.dll, SHLWAPI.dll,      
+                                   comctl32.dll, rsaenh.dll, CLBCatQ.DLL,      
+                                   es.dll, PROPSYS.dll, nlasvc.dll,            
+                                   dhcpcsvc.DLL, DNSAPI.dll, WINNSI.DLL,       
+                                   wevtapi.dll, IPHLPAPI.DLL, dhcpcsvc6.DLL,   
+                                   ncsi.dll, WINHTTP.dll, WTSAPI32.dll,        
+                                   bcrypt.dll, CFGMGR32.dll, credssp.dll,      
+                                   schannel.dll, ssdpapi.dll, mswsock.dll,     
+                                   wshtcpip.dll, wship6.dll, WINSTA.dll,       
+                                   NLAapi.dll, napinsp.dll, winrnr.dll,        
+                                   rasadhlp.dll, NTDSAPI.DLL, kerberos.dll,    
+                                   cryptdll.dll, termsrv.dll, ICAAPI.dll,      
+                                   WINTRUST.dll, imagehlp.dll, SHELL32.dll,    
+                                   ESENT.dll, lsmproxy.dll, slc.dll,           
+                                   REGAPI.dll, rdpwsx.dll, mstlsapi.dll,       
+                                   ACTIVEDS.dll, adsldpc.dll, credui.dll,      
+                                   msdtckrm.dll, VERSION.dll, ktmw32.dll,      
+                                   CLUSAPI.dll, wsmsvc.dll, GPAPI.dll,         
+                                   HTTPAPI.dll, wevtfwd.dll, SXS.DLL,          
+                                   vss_ps.dll, msxml3.dll, apphelp.dll,        
+                                   Cabinet.dll, ncrypt.dll                     
+inetinfo.exe                  2016 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, IISUTIL.dll,        
+                                   USER32.dll, GDI32.dll, ole32.dll,           
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, WS2_32.dll, NSI.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   rpcref.dll, IisRTL.DLL, iisadmin.dll,       
+                                   VSSAPI.DLL, ATL.DLL, OLEAUT32.dll,          
+                                   vsstrace.dll, AUTHZ.dll, XmlLite.dll,       
+                                   NETAPI32.dll, PSAPI.DLL, MPR.dll,           
+                                   SETUPAPI.dll, COADMIN.dll, ADMWPROX.dll,    
+                                   IISCFG.DLL, abocomp.dll, HTTPAPI.dll,       
+                                   WSOCK32.dll, nativerd.dll, IISRES.DLL,      
+                                   rsaenh.dll, NTMARTA.DLL, WLDAP32.dll,       
+                                   SAMLIB.dll, CLBCatQ.DLL, metadata.dll,      
+                                   msxml3.dll, SHLWAPI.dll, bcrypt.dll,        
+                                   comctl32.dll, SHELL32.dll, svcext.dll,      
+                                   wamreg.dll, es.dll, PROPSYS.dll, mlang.dll, 
+                                   SXS.DLL, vss_ps.dll, rsca.dll, w3ctrlps.dll 
+LogWatNT.exe                  1064 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+lic98Service.exe              1220 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+MsDepSvc.exe                   768 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, rsaenh.dll, System.ni.dll, 
+                                   System.ServiceProcess.ni.dll, clrjit.dll,   
+                                   Microsoft.Web.Deployment.Tracing.dll,       
+                                   System.Core.ni.dll,                         
+                                   System.Configuration.ni.dll,                
+                                   System.Xml.ni.dll, nlssorting.dll,          
+                                   httpapi.dll, ws2_32.dll, NSI.dll,           
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   NLAapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   DNSAPI.dll, Secur32.dll, WINNSI.DLL,        
+                                   dhcpcsvc6.DLL, napinsp.dll, winrnr.dll,     
+                                   WLDAP32.dll, PSAPI.DLL, rasadhlp.dll,       
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   credssp.dll, schannel.dll, NETAPI32.dll,    
+                                   msv1_0.dll, cryptdll.dll,                   
+                                   Microsoft.Web.Deployment.dll,               
+                                   Microsoft.Web.Delegation.dll,               
+                                   System.Web.ni.dll,                          
+                                   Microsoft.Web.Deployment.dll,               
+                                   System.Configuration.Install.ni.dll,        
+                                   System.Data.ni.dll, System.Data.dll,        
+                                   version.dll,                                
+                                   Microsoft.Web.Administration.dll,           
+                                   nativerd.dll, IISUTIL.dll, XmlLite.dll,     
+                                   IISRES.DLL, mlang.dll, NTMARTA.DLL,         
+                                   SAMLIB.dll, clrcompression.dll              
+sqlservr.exe                  1616 ntdll.dll, kernel32.dll, MSVCR80.dll,       
+                                   msvcrt.dll, MSVCP80.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, MSWSOCK.dll, WS2_32.dll,       
+                                   NSI.dll, opends60.dll, NETAPI32.dll,        
+                                   PSAPI.DLL, SHELL32.dll, SHLWAPI.dll,        
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   comctl32.dll, instapi.dll, cscapi.dll,      
+                                   sqlevn70.rll.mui, SQLOS.DLL, NTMARTA.DLL,   
+                                   WLDAP32.dll, SAMLIB.dll, ole32.dll,         
+                                   rsaenh.dll, AUTHZ.DLL, MSCOREE.DLL,         
+                                   mscoreei.dll, credssp.dll, schannel.dll,    
+                                   msv1_0.dll, cryptdll.dll, kerberos.dll,     
+                                   CLBCatQ.DLL, OLEAUT32.dll, sqlncli.dll,     
+                                   VERSION.dll, COMCTL32.dll, comdlg32.dll,    
+                                   SQLNCLIR.RLL, wintrust.dll, imagehlp.dll,   
+                                   ncrypt.dll, BCRYPT.dll, GPAPI.dll, slc.dll, 
+                                   cryptnet.dll, SensApi.dll, sqlvdi.dll       
+SMSvcHost.exe                 1588 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, System.ni.dll,             
+                                   SMSvcHost.ni.exe, System.Core.ni.dll,       
+                                   System.ServiceModel.ni.dll,                 
+                                   System.ServiceProcess.ni.dll,               
+                                   System.ServiceModel.Internals.ni.dll,       
+                                   rsaenh.dll, nlssorting.dll,                 
+                                   SMDiagnostics.ni.dll,                       
+                                   System.Configuration.ni.dll,                
+                                   System.Xml.ni.dll,                          
+                                   System.Runtime.Serialization.ni.dll,        
+                                   System.IdentityModel.ni.dll,                
+                                   System.Xaml.ni.dll,                         
+                                   System.Transactions.ni.dll,                 
+                                   System.Transactions.dll, wbhstipm.dll,      
+                                   IISUTIL.dll, CRYPT32.dll, MSASN1.dll,       
+                                   USERENV.dll, Secur32.dll, WS2_32.dll,       
+                                   NSI.dll, clrjit.dll                         
+nimbus.exe                    2144 ntdll.dll, kernel32.dll, WS2_32.dll,        
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   NSI.dll, USER32.dll, GDI32.dll,             
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, apphelp.dll                      
+nsrexecd.exe                  2164 ntdll.dll, kernel32.dll, LIBNSR.DLL,        
+                                   LIBRAP.DLL, LIBCOMMONSSL.DLL, liblocal.dll, 
+                                   RPCRT4.dll, ADVAPI32.dll, WS2_32.dll,       
+                                   msvcrt.dll, NSI.dll, USER32.dll, GDI32.dll, 
+                                   SHELL32.dll, SHLWAPI.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, MSVCR100D.dll,   
+                                   LIBRPC.DLL, CSP-C.dll, CSP.dll, CSP-RT.dll, 
+                                   MSVCP80.dll, MSVCR80.dll, osysrt.dll,       
+                                   osysrtxml.dll, expat.dll, CST-Admin.dll,    
+                                   SQLite_3_7_5_DLL.dll, MSVCR80D.dll,         
+                                   libddcl.dll, libnwnfs.dll, VERSION.dll,     
+                                   ole32.dll, OLEAUT32.dll, IMM32.DLL,         
+                                   MSCTF.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, NLAapi.dll, napinsp.dll,      
+                                   mswsock.dll, winrnr.dll, WLDAP32.dll,       
+                                   PSAPI.DLL, wship6.dll, wshtcpip.dll,        
+                                   rasadhlp.dll, CLUSAPI.DLL, NTDSAPI.dll,     
+                                   NETAPI32.dll, cryptdll.dll, ACTIVEDS.dll,   
+                                   adsldpc.dll, credui.dll, ATL.DLL,           
+                                   NTMARTA.DLL, SAMLIB.dll, CSP-lb.dll,        
+                                   CSP-Security.dll, cryptocme2.dll,           
+                                   ccme_base.dll, ccme_ecc.dll,                
+                                   ccme_eccaccel.dll, ccme_eccnistaccel.dll,   
+                                   locktbl.dll, rsaenh.dll, apphelp.dll        
+controller.exe                2172 ntdll.dll, kernel32.dll, WS2_32.dll,        
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   NSI.dll, USER32.dll, GDI32.dll, ole32.dll,  
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, NLAapi.dll,          
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   Secur32.dll, WINNSI.DLL, dhcpcsvc6.DLL,     
+                                   napinsp.dll, mswsock.dll, winrnr.dll,       
+                                   WLDAP32.dll, PSAPI.DLL, rasadhlp.dll,       
+                                   wship6.dll, wshtcpip.dll, apphelp.dll       
+nsrpm.exe                     2264 ntdll.dll, kernel32.dll, liblocal.dll,      
+                                   RPCRT4.dll, ADVAPI32.dll, WS2_32.dll,       
+                                   msvcrt.dll, NSI.dll, USER32.dll, GDI32.dll, 
+                                   SHELL32.dll, SHLWAPI.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, MSVCR100D.dll,   
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   comctl32.dll, NLAapi.dll, napinsp.dll,      
+                                   mswsock.dll, winrnr.dll, WLDAP32.dll,       
+                                   PSAPI.DLL, wshtcpip.dll, wship6.dll,        
+                                   rasadhlp.dll, NTMARTA.DLL, SAMLIB.dll,      
+                                   ole32.dll                                   
+svchost.exe                   2328 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, regsvc.dll,       
+                                   secur32.dll, CRYPT32.dll, USER32.dll,       
+                                   GDI32.dll, MSASN1.dll, USERENV.dll,         
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   credssp.dll, schannel.dll, NETAPI32.dll,    
+                                   PSAPI.DLL, kerberos.dll, cryptdll.dll,      
+                                   bcrypt.dll                                  
+rsopprov.exe                  2344 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, ole32.dll, OLEAUT32.dll,        
+                                   GPAPI.dll, slc.dll, GPSVC.dll, Secur32.dll, 
+                                   NETAPI32.dll, PSAPI.DLL, NTDSAPI.dll,       
+                                   DNSAPI.dll, WS2_32.dll, NSI.dll,            
+                                   WLDAP32.dll, WTSAPI32.dll, USERENV.dll,     
+                                   AUTHZ.dll, SYSNTFY.dll, WINSTA.dll,         
+                                   nlaapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, SAMLIB.dll,      
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   CLBCatQ.DLL, rsaenh.dll                     
+ccSvcHst.exe                  2392 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+snmp.exe                      2452 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, snmpapi.dll,        
+                                   WS2_32.dll, NSI.dll, USER32.dll, GDI32.dll, 
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   NLAapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   DNSAPI.dll, Secur32.dll, WINNSI.DLL,        
+                                   dhcpcsvc6.DLL, napinsp.dll, mswsock.dll,    
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   wship6.dll, wshtcpip.dll, httpmib.dll,      
+                                   IISUTIL.dll, ole32.dll, CRYPT32.dll,        
+                                   MSASN1.dll, USERENV.dll, apphelp.dll,       
+                                   evntagnt.dll, snmpmib.dll, inetmib1.dll,    
+                                   hostmib.dll, NETAPI32.dll, WSOCK32.dll,     
+                                   NTMARTA.DLL, SAMLIB.dll, WINSPOOL.DRV,      
+                                   lmmib2.dll                                  
+sqlwriter.exe                 2472 ntdll.dll, kernel32.dll, MSVCR80.dll,       
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   ole32.dll, GDI32.dll, USER32.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   psapi.dll, sqlwvss.dll, MSVCP80.dll,        
+                                   OLEAUT32.dll, VSSAPI.DLL, ATL.DLL,          
+                                   vsstrace.dll, AUTHZ.dll, XmlLite.dll,       
+                                   NETAPI32.dll, MPR.dll, SETUPAPI.dll,        
+                                   SAMLIB.dll, CLBCatQ.DLL, es.dll,            
+                                   PROPSYS.dll, rsaenh.dll, SXS.DLL,           
+                                   vss_ps.dll, msxml3.dll, SHLWAPI.dll,        
+                                   bcrypt.dll, comctl32.dll, sqlncli.dll,      
+                                   VERSION.dll, COMCTL32.dll, comdlg32.dll,    
+                                   SHELL32.dll, WS2_32.dll, NSI.dll,           
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, SQLNCLIR.RLL, credssp.dll,     
+                                   schannel.dll, kerberos.dll, cryptdll.dll,   
+                                   msv1_0.dll, ntdsapi.dll, DNSAPI.dll,        
+                                   WLDAP32.dll, security.dll, sqlvdi.dll,      
+                                   NTMARTA.DLL                                 
+svchost.exe                   2504 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, srmsvc.dll,       
+                                   ATL.DLL, USER32.dll, GDI32.dll, ole32.dll,  
+                                   OLEAUT32.dll, VSSAPI.DLL, vsstrace.dll,     
+                                   AUTHZ.dll, XmlLite.dll, NETAPI32.dll,       
+                                   PSAPI.DLL, MPR.dll, SETUPAPI.dll,           
+                                   framedynos.dll, Secur32.dll, SrmTrace.DLL,  
+                                   USERENV.dll, FLTLIB.DLL, ACTIVEDS.dll,      
+                                   adsldpc.dll, WLDAP32.dll, WS2_32.dll,       
+                                   NSI.dll, credui.dll, SHELL32.dll,           
+                                   SHLWAPI.dll, CLUSAPI.dll, NTDSAPI.dll,      
+                                   DNSAPI.dll, cryptdll.dll, DFSEXT.dll,       
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   comctl32.dll, CLBCatQ.DLL, rsaenh.dll,      
+                                   cscapi.dll, wmidcprv.dll, FastProx.dll,     
+                                   wbemcomn.dll, wbemprox.dll, wbemsvc.dll,    
+                                   wmiutils.dll, SAMLIB.dll, es.dll,           
+                                   PROPSYS.dll, msxml3.dll, bcrypt.dll,        
+                                   SXS.DLL, vss_ps.dll                         
+syslog-ng-agent.exe           2524 ntdll.dll, kernel32.dll, WS2_32.dll,        
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   NSI.dll, CRYPT32.dll, USER32.dll,           
+                                   GDI32.dll, MSASN1.dll, USERENV.dll,         
+                                   Secur32.dll, wevtapi.dll, pcre.dll,         
+                                   ole32.dll, OLEAUT32.dll, SHLWAPI.dll,       
+                                   VERSION.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, comctl32.dll, dbghelp.dll,       
+                                   CLBCatQ.DLL, rsaenh.dll, vbscript.dll,      
+                                   SXS.DLL, SHELL32.dll, msxml6.dll,           
+                                   bcrypt.dll, NLAapi.dll, IPHLPAPI.DLL,       
+                                   dhcpcsvc.DLL, DNSAPI.dll, WINNSI.DLL,       
+                                   dhcpcsvc6.DLL, napinsp.dll, mswsock.dll,    
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll, wshtcpip.dll                  
+nssm.exe                      2708 ntdll.dll, kernel32.dll, SHLWAPI.dll,       
+                                   GDI32.dll, USER32.dll, ADVAPI32.dll,        
+                                   RPCRT4.dll, msvcrt.dll, COMDLG32.dll,       
+                                   COMCTL32.dll, SHELL32.dll, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, apphelp.dll                   
+vmtoolsd.exe                  2784 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, ole32.dll, msvcrt.dll,          
+                                   GDI32.dll, USER32.dll, VERSION.dll,         
+                                   MSVCR90.dll, intl.dll, iconv.dll,           
+                                   glib-2.0.dll, WS2_32.dll, NSI.dll,          
+                                   SHELL32.dll, SHLWAPI.dll, gmodule-2.0.dll,  
+                                   gobject-2.0.dll, gthread-2.0.dll,           
+                                   vmtools.dll, OLEAUT32.dll, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, IpHlpApi.dll, dhcpcsvc.DLL,   
+                                   DNSAPI.dll, Secur32.dll, WINNSI.DLL,        
+                                   dhcpcsvc6.DLL, NTMARTA.DLL, WLDAP32.dll,    
+                                   PSAPI.DLL, SAMLIB.dll, USERENV.dll,         
+                                   hgfsServer.dll, hgfs.dll, MPR.dll,          
+                                   hgfsUsability.dll, vix.dll, autoLogon.dll,  
+                                   MSVCP90.dll, autoUpgrade.dll, WTSAPI32.dll, 
+                                   bitMapper.dll, deployPkgPlugin.dll,         
+                                   deployPkg.dll, diskWiper.dll, CRYPT32.dll,  
+                                   MSASN1.dll, guestInfo.dll,                  
+                                   hwUpgradeHelper.dll, SETUPAPI.dll,          
+                                   powerOps.dll, resolutionSet.dll,            
+                                   timeSync.dll, vmbackup.dll, CLBCatQ.DLL,    
+                                   wbemprox.dll, wbemcomn.dll, rsaenh.dll,     
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   NETAPI32.dll, mswsock.dll, wshtcpip.dll,    
+                                   perfos.dll, comsvcs.dll, SXS.DLL,           
+                                   netcfgx.dll, WINTRUST.dll, imagehlp.dll     
+cmd.exe                       2824 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, apphelp.dll         
+svchost.exe                   2860 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, iisw3adm.dll,     
+                                   USER32.dll, GDI32.dll, ole32.dll,           
+                                   USERENV.dll, Secur32.dll, Normaliz.dll,     
+                                   CRYPT32.dll, MSASN1.dll, IISUTIL.dll,       
+                                   WS2_32.dll, NSI.dll, W3TP.dll,              
+                                   nativerd.dll, OLEAUT32.dll, XmlLite.dll,    
+                                   HTTPAPI.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, IISRES.DLL, rsaenh.dll,          
+                                   CLBCatQ.DLL, mlang.dll, comctl32.dll,       
+                                   SHLWAPI.dll, SHELL32.dll, NTMARTA.DLL,      
+                                   WLDAP32.dll, PSAPI.DLL, SAMLIB.dll,         
+                                   mpr.dll, apphelp.dll, w3ctrlps.dll          
+WMSvc.exe                     2892 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, ole32.dll,          
+                                   GDI32.dll, USER32.dll, OLEAUT32.dll,        
+                                   mscoree.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, mscoreei.dll, SHLWAPI.dll,       
+                                   comctl32.dll, mscorwks.dll, MSVCR80.dll,    
+                                   fusion.dll, mscordbc.dll, CLBCatQ.DLL,      
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll,                 
+                                   mscorlib.ni.dll, rsaenh.dll,                
+                                   Microsoft.Web.Management.dll, sxs.dll,      
+                                   mscorjit.dll, System.dll, VERSION.dll,      
+                                   crypt32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, psapi.dll, System.Web.dll,     
+                                   NTMARTA.DLL, WLDAP32.dll, WS2_32.dll,       
+                                   NSI.dll, SAMLIB.dll, hwebcore.dll,          
+                                   iisw3adm.dll, Normaliz.dll, IISUTIL.dll,    
+                                   W3TP.dll, nativerd.dll, XmlLite.dll,        
+                                   HTTPAPI.dll, IISRES.DLL, mlang.dll,         
+                                   w3wphost.dll, iiscore.dll, w3dt.dll,        
+                                   slc.dll, faultrep.dll, NLAapi.dll,          
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   mswsock.dll, winrnr.dll, wshtcpip.dll,      
+                                   wship6.dll, rasadhlp.dll, iprestr.dll,      
+                                   webengine.dll, authbas.dll, loghttp.dll,    
+                                   iisetw.dll, modrqflt.dll, msxml3.dll,       
+                                   bcrypt.dll, winhttp.dll, wintrust.dll,      
+                                   imagehlp.dll, schannel.dll, NETAPI32.dll,   
+                                   credssp.dll, dssenh.dll, ncrypt.dll,        
+                                   GPAPI.dll, wbhst_pm.dll,                    
+                                   System.Configuration.dll, System.ni.dll,    
+                                   System.Xml.ni.dll, Microsoft.JScript.dll    
+Heracles.exe                  2932 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, mscorwks.dll,      
+                                   MSVCR80.dll, mscordbc.dll, ole32.dll,       
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll,                 
+                                   mscorlib.ni.dll, mscorjit.dll,              
+                                   System.ServiceProcess.dll, System.dll,      
+                                   VERSION.dll, rsaenh.dll, log4net.dll,       
+                                   System.Configuration.dll, System.Xml.dll,   
+                                   System.Core.dll, System.Management.dll,     
+                                   WMINet_Utils.dll, wmiutils.dll,             
+                                   wbemcomn.dll, wbemprox.dll, WS2_32.dll,     
+                                   NSI.dll, wbemsvc.dll, fastprox.dll,         
+                                   NTDSAPI.dll, DNSAPI.dll, WLDAP32.dll,       
+                                   PSAPI.DLL, NETAPI32.dll, Secur32.dll,       
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   iphlpapi.dll, dhcpcsvc.DLL, WINNSI.DLL,     
+                                   dhcpcsvc6.DLL, NLAapi.dll, napinsp.dll,     
+                                   winrnr.dll, rasadhlp.dll, System.Data.dll,  
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   System.Data.DataSetExtensions.dll,          
+                                   rasapi32.dll, rasman.dll, TAPI32.dll,       
+                                   rtutils.dll, WINMM.dll, OLEACC.dll,         
+                                   winhttp.dll                                 
+java.exe                      2996 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   COMCTL32.dll, msvcrt.dll, SHLWAPI.dll,      
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   msvcr100.dll, jvm.dll, WSOCK32.dll,         
+                                   WS2_32.dll, NSI.dll, WINMM.dll, ole32.dll,  
+                                   OLEAUT32.dll, OLEACC.dll, PSAPI.DLL,        
+                                   verify.dll, java.dll, zip.dll, SHELL32.dll, 
+                                   rsaenh.dll, USERENV.dll, Secur32.dll,       
+                                   net.dll, mswsock.dll, wship6.dll,           
+                                   NLAapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   DNSAPI.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   napinsp.dll, winrnr.dll, WLDAP32.dll,       
+                                   wshtcpip.dll, rasadhlp.dll, nio.dll,        
+                                   jffi2847931648421911850.tmp, apphelp.dll,   
+                                   management.dll                              
+spooler.exe                   2684 ntdll.dll, kernel32.dll, WS2_32.dll,        
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   NSI.dll, USER32.dll, GDI32.dll,             
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, mswsock.dll,         
+                                   wshtcpip.dll, NLAapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll, wship6.dll                    
+taskeng.exe                   3416 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, SHELL32.dll, SHLWAPI.dll,       
+                                   ole32.dll, OLEAUT32.dll, Secur32.dll,       
+                                   XmlLite.dll, MPR.dll, IMM32.DLL, MSCTF.dll, 
+                                   LPK.DLL, USP10.dll, comctl32.dll,           
+                                   rsaenh.dll, CLBCatQ.DLL, tschannel.dll,     
+                                   dimsjob.dll, USERENV.dll, ncrypt.dll,       
+                                   CRYPT32.dll, MSASN1.dll, GPAPI.dll,         
+                                   slc.dll, pautoenr.dll, NETAPI32.dll,        
+                                   PSAPI.DLL, WLDAP32.dll, WS2_32.dll,         
+                                   NSI.dll, certcli.dll, ATL.DLL,              
+                                   certenroll.dll, NTDSAPI.dll, DNSAPI.dll,    
+                                   WinSCard.dll, WTSAPI32.dll, WINSTA.dll,     
+                                   WININET.dll, Normaliz.dll, iertutil.dll,    
+                                   mswsock.dll, wshtcpip.dll, credssp.dll,     
+                                   schannel.dll, kerberos.dll, cryptdll.dll,   
+                                   bcrypt.dll, cryptnet.dll, SensApi.dll,      
+                                   WINHTTP.dll, wship6.dll, NTMARTA.DLL,       
+                                   SAMLIB.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, NLAapi.dll,      
+                                   napinsp.dll, winrnr.dll, rasadhlp.dll,      
+                                   apphelp.dll                                 
+msdtc.exe                     4112 ntdll.dll, kernel32.dll, ole32.dll,         
+                                   msvcrt.dll, GDI32.dll, USER32.dll,          
+                                   ADVAPI32.dll, RPCRT4.dll, MSDTCTM.dll,      
+                                   OLEAUT32.dll, MSDTCPRX.dll, NETAPI32.dll,   
+                                   PSAPI.DLL, MTXCLU.DLL, WS2_32.dll, NSI.dll, 
+                                   CLUSAPI.dll, NTDSAPI.dll, DNSAPI.dll,       
+                                   WLDAP32.dll, Secur32.dll, cryptdll.dll,     
+                                   ACTIVEDS.dll, adsldpc.dll, credui.dll,      
+                                   SHELL32.dll, SHLWAPI.dll, ATL.DLL,          
+                                   RESUTILS.dll, USERENV.dll, VERSION.dll,     
+                                   bcrypt.dll, ktmw32.dll, MSDTCLOG.dll,       
+                                   WINMM.dll, OLEACC.dll, XOLEHLP.dll,         
+                                   MSWSOCK.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, comctl32.dll, COMRES.DLL,        
+                                   msdtcVSp1res.dll, MTxOCI.Dll, CRYPT32.dll,  
+                                   MSASN1.dll, credssp.dll, schannel.dll,      
+                                   CLBCatQ.DLL, FirewallAPI.dll                
+aws_orb.exe                   5456 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+aws_sadmin.exe                5956 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+caiWinA3.exe                  5520 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+caiLogA2.exe                  3856 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+Microsoft.IdentityServer.     3472 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, mscorwks.dll,      
+                                   MSVCR80.dll, mscordbc.dll, ole32.dll,       
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll,                 
+                                   mscorlib.ni.dll, mscorsec.dll,              
+                                   WINTRUST.dll, CRYPT32.dll, MSASN1.dll,      
+                                   USERENV.dll, Secur32.dll, imagehlp.dll,     
+                                   COMCTL32.dll, rsaenh.dll, psapi.dll,        
+                                   ncrypt.dll, BCRYPT.dll, NTMARTA.DLL,        
+                                   WLDAP32.dll, WS2_32.dll, NSI.dll,           
+                                   SAMLIB.dll, GPAPI.dll, slc.dll,             
+                                   cryptnet.dll, SensApi.dll, WINHTTP.dll,     
+                                   mswsock.dll, wshtcpip.dll, wship6.dll,      
+                                   NETAPI32.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,   
+                                   DNSAPI.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   NLAapi.dll, napinsp.dll, winrnr.dll,        
+                                   rasadhlp.dll, mscorjit.dll,                 
+                                   Microsoft.IdentityServer.Service.dll,       
+                                   System.ServiceProcess.dll, System.ni.dll,   
+                                   Microsoft.IdentityServer.dll,               
+                                   System.Configuration.dll, VERSION.dll,      
+                                   System.Xml.dll, System.Core.ni.dll,         
+                                   Microsoft.IdentityServer.ClaimsPolicy.dll,  
+                                   Microsoft.IdentityModel.dll, shfolder.dll,  
+                                   System.ServiceModel.dll, SMDiagnostics.dll, 
+                                   System.Transactions.dll, System.Data.dll,   
+                                   System.EnterpriseServices.dll,              
+                                   security.dll, credssp.dll, schannel.dll,    
+                                   kerberos.dll, cryptdll.dll, msv1_0.dll,     
+                                   ntdsapi.dll, apphelp.dll,                   
+                                   Microsoft.IdentityServer.Dkm.dll,           
+                                   System.DirectoryServices.dll, activeds.dll, 
+                                   adsldpc.dll, credui.dll, ATL.DLL,           
+                                   adsldp.dll, SXS.DLL, sqmapi.dll,            
+                                   System.Runtime.Serialization.dll,           
+                                   System.Web.dll, System.IdentityModel.dll,   
+                                   httpapi.dll,                                
+                                   System.DirectoryServices.Protocols.dll,     
+                                   System.Web.Services.dll,                    
+                                   system.workflowservices.dll, dssenh.dll,    
+                                   diasymreader.dll                            
+CcmExec.exe                   2540 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   MSVCP100.dll, MSVCR100.dll, IPHLPAPI.DLL,   
+                                   msvcrt.dll, dhcpcsvc.DLL, DNSAPI.dll,       
+                                   WS2_32.dll, NSI.dll, Secur32.dll,           
+                                   WINNSI.DLL, dhcpcsvc6.DLL, ole32.dll,       
+                                   OLEAUT32.dll, PSAPI.DLL, WTSAPI32.dll,      
+                                   ccmcore.dll, SHLWAPI.dll, VERSION.dll,      
+                                   CCMGenCert.dll, CRYPT32.dll, MSASN1.dll,    
+                                   USERENV.dll, smscore.dll, CCMUtilLib.dll,   
+                                   WSOCK32.dll, ccmid.DLL, SHELL32.dll,        
+                                   LSUtilities.dll, NETAPI32.dll,              
+                                   ACTIVEDS.dll, adsldpc.dll, WLDAP32.dll,     
+                                   credui.dll, ATL.DLL, FSPUtilLib.dll,        
+                                   CcmTask.dll, ccmperf.dll, IMM32.DLL,        
+                                   MSCTF.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, CLBCatQ.DLL, wbemcomn.dll,    
+                                   rsaenh.dll, wbemsvc.dll, fastprox.dll,      
+                                   NTDSAPI.dll, NTMARTA.DLL, SAMLIB.dll,       
+                                   iertutil.dll, JSProxy.dll, GPAPI.dll,       
+                                   slc.dll, ncrypt.dll, BCRYPT.dll, SXS.DLL,   
+                                   PROPSYS.dll, WINSTA.dll, SrcUpdateMgr.dll,  
+                                   msi.dll, CcmDTS.dll,                        
+                                   CcmCTMNotification.DLL, smssha.dll,         
+                                   framedyn.dll, msvcp60.dll,                  
+                                   SoftwareCenterSystemTasks.dll,              
+                                   VAppLaunchMgr.dll, UpdatesDeployment.dll,   
+                                   CcmProxy.dll, ScanAgent.dll, Sched.dll,     
+                                   CcmPendingTasks.dll, rebootcoord.dll,       
+                                   CcmPolicySdk.dll, PolicyAgentEndpoint.dll,  
+                                   UpdatesStore.dll, ContentAccess.dll,        
+                                   CPApplet.dll, CcmCTM.dll, LibRDC.dll,       
+                                   execmgr.dll, SrvWinMgr.dll,                 
+                                   StatusAgent.dll, wmidcprv.dll,              
+                                   wmiutils.dll, esscli.dll,                   
+                                   MaintenanceCoordinator.dll,                 
+                                   WriteFilterManager.dll, ClientState.dll,    
+                                   WriteFilterWriteThroughLibrary.dll,         
+                                   MaintenanceModeManager.dll,                 
+                                   WriteFilterLoggingLibrary.dll,              
+                                   StateMessage.dll, CcmEvalTask.dll,          
+                                   AffinityAgent.dll, LSInterface.dll,         
+                                   SensApi.dll, mswsock.dll, wshtcpip.dll,     
+                                   credssp.dll, schannel.dll, wship6.dll,      
+                                   NLAapi.dll, napinsp.dll, winrnr.dll,        
+                                   rasadhlp.dll, kerberos.dll, cryptdll.dll,   
+                                   StatusAgentProxy.dll, smsclient.dll,        
+                                   MtrMgr.dll, MPR.dll, Prep.dll,              
+                                   WUAHandler.dll, CIStore.dll, CcmSqlCE.dll,  
+                                   sqlceoledb35.dll, MSVCR80.dll,              
+                                   sqlceer35EN.DLL, sqlcese35.dll,             
+                                   sqlceqp35.dll, CIStateStore.dll,            
+                                   WINTRUST.dll, imagehlp.dll,                 
+                                   CIDownloader.dll, CIAgent.dll,              
+                                   dcmagent.dll, BgbClientEndpoint.dll,        
+                                   PwrAgentEndpoint.dll, POWRPROF.dll,         
+                                   SetupApi.dll, PwrEventTask.dll, Msidle.dll, 
+                                   dssenh.dll, apphelp.dll,                    
+                                   StandardEventForwarder.dll,                 
+                                   UpdatesHandler.dll, CITaskMgr.dll,          
+                                   wbemprox.dll, msxml6.dll, ccmhttp.dll,      
+                                   WINHTTP.dll, PolicyAgent.dll,               
+                                   CCMAuthMessageHook.dll, taskschd.dll,       
+                                   XmlLite.dll, SCUpdateMgr.dll, wuapi.dll,    
+                                   Cabinet.dll, wups.dll, ExecMgr_ps.dll,      
+                                   Sched_ps.dll, UpdatesDeployment_ps.dll,     
+                                   cisstore_ps.dll, cistore_ps.dll,            
+                                   dcmagent_ps.dll, RebootCoord_ps.dll         
+WmiPrvSE.exe                  2000 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, wbemcomn.dll, OLEAUT32.dll,     
+                                   ole32.dll, FastProx.dll, NTDSAPI.dll,       
+                                   DNSAPI.dll, WS2_32.dll, NSI.dll,            
+                                   WLDAP32.dll, PSAPI.DLL, NETAPI32.dll,       
+                                   Secur32.dll, NCObjAPI.DLL, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll, NTMARTA.DLL, 
+                                   SAMLIB.dll, CLBCatQ.DLL, rsaenh.dll,        
+                                   wbemsvc.dll, wmiutils.dll,                  
+                                   PolicyAgentProvider.dll, MSVCP100.dll,      
+                                   MSVCR100.dll, ccmcore.dll, SHLWAPI.dll,     
+                                   VERSION.dll, WTSAPI32.dll, CCMUtilLib.dll,  
+                                   WSOCK32.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,    
+                                   WINNSI.DLL, dhcpcsvc6.DLL, CRYPT32.dll,     
+                                   MSASN1.dll, USERENV.dll, comctl32.dll       
+svchost.exe                   4336 ntdll.dll, kernel32.dll, msvcrt.dll,        
+                                   ADVAPI32.dll, RPCRT4.dll, NTMARTA.DLL,      
+                                   USER32.dll, GDI32.dll, WLDAP32.dll,         
+                                   WS2_32.dll, NSI.dll, PSAPI.DLL, SAMLIB.dll, 
+                                   ole32.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,   
+                                   USP10.dll, fntcache.dll, ktmw32.dll         
+WmiPrvSE.exe                  4144 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, wbemcomn.dll, OLEAUT32.dll,     
+                                   ole32.dll, FastProx.dll, NTDSAPI.dll,       
+                                   DNSAPI.dll, WS2_32.dll, NSI.dll,            
+                                   WLDAP32.dll, PSAPI.DLL, NETAPI32.dll,       
+                                   Secur32.dll, NCObjAPI.DLL, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll, NTMARTA.DLL, 
+                                   SAMLIB.dll, CLBCatQ.DLL, rsaenh.dll,        
+                                   wbemsvc.dll, wmiutils.dll, stdprov.dll,     
+                                   esscli.dll, USERENV.dll                     
+srmhost.exe                   4468 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, OLEAUT32.dll,       
+                                   ole32.dll, GDI32.dll, USER32.dll,           
+                                   SrmTrace.DLL, IMM32.DLL, MSCTF.dll,         
+                                   LPK.DLL, USP10.dll, srmsvc.dll, ATL.DLL,    
+                                   VSSAPI.DLL, vsstrace.dll, AUTHZ.dll,        
+                                   XmlLite.dll, NETAPI32.dll, PSAPI.DLL,       
+                                   MPR.dll, SETUPAPI.dll, framedynos.dll,      
+                                   Secur32.dll, USERENV.dll, FLTLIB.DLL,       
+                                   ACTIVEDS.dll, adsldpc.dll, WLDAP32.dll,     
+                                   WS2_32.dll, NSI.dll, credui.dll,            
+                                   SHELL32.dll, SHLWAPI.dll, CLUSAPI.dll,      
+                                   NTDSAPI.dll, DNSAPI.dll, cryptdll.dll,      
+                                   DFSEXT.dll, comctl32.dll, CLBCatQ.DLL,      
+                                   rsaenh.dll, mscoree.dll, mscoreei.dll,      
+                                   sxs.dll, mscorwks.dll, MSVCR80.dll,         
+                                   mscordbc.dll, AppDynamics.Profiler_x64.dll, 
+                                   MSVCP120.dll, MSVCR120.dll,                 
+                                   mscorlib.ni.dll, System.ni.dll,             
+                                   srmreports.ni.dll, srmlib.ni.dll,           
+                                   System.Xml.ni.dll                           
+TrustedInstaller.exe          7096 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, ole32.dll,          
+                                   GDI32.dll, USER32.dll, IMM32.DLL,           
+                                   MSCTF.dll, LPK.DLL, USP10.dll, cbscore.dll, 
+                                   VERSION.dll, CRYPT32.dll, MSASN1.dll,       
+                                   USERENV.dll, Secur32.dll, WINTRUST.dll,     
+                                   imagehlp.dll, wdscore.dll, OLEAUT32.dll,    
+                                   SHELL32.dll, SHLWAPI.dll, comctl32.dll,     
+                                   dbghelp.dll, Ktmw32.dll, dpx.dll, wcp.dll,  
+                                   DrUpdate.dll, SETUPAPI.dll, MPR.dll,        
+                                   wrpint.dll, SxsStore.dll, rsaenh.dll,       
+                                   CLBCatQ.DLL, CbsApi.dll, psapi.dll,         
+                                   ncrypt.dll, BCRYPT.dll, NTMARTA.DLL,        
+                                   WLDAP32.dll, WS2_32.dll, NSI.dll,           
+                                   SAMLIB.dll, GPAPI.dll, slc.dll              
+Gps.Agent.Tmon.Service.ex    17360 ntdll.dll, mscoree.dll, KERNEL32.dll,       
+                                   ADVAPI32.dll, RPCRT4.dll, mscoreei.dll,     
+                                   SHLWAPI.dll, GDI32.dll, USER32.dll,         
+                                   msvcrt.dll, IMM32.DLL, MSCTF.dll, LPK.DLL,  
+                                   USP10.dll, comctl32.dll, clr.dll,           
+                                   MSVCR110_CLR0400.dll, ole32.dll,            
+                                   CLBCatQ.DLL, OLEAUT32.dll,                  
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, System.ni.dll,             
+                                   System.ServiceProcess.ni.dll, clrjit.dll,   
+                                   System.Configuration.ni.dll, rsaenh.dll,    
+                                   VERSION.dll, log4net.dll,                   
+                                   System.Xml.ni.dll,                          
+                                   System.Configuration.Install.ni.dll,        
+                                   nlssorting.dll, urlmon.dll, iertutil.dll,   
+                                   Secur32.dll, Iaplus.Tools.dll, ws2_32.dll,  
+                                   NSI.dll, mswsock.dll, wshtcpip.dll,         
+                                   wship6.dll, NLAapi.dll, IPHLPAPI.DLL,       
+                                   dhcpcsvc.DLL, DNSAPI.dll, WINNSI.DLL,       
+                                   dhcpcsvc6.DLL, napinsp.dll, winrnr.dll,     
+                                   WLDAP32.dll, PSAPI.DLL, System.dll,         
+                                   Mam.Agent.dll, System.Configuration.dll,    
+                                   System.Xml.dll, USERENV.dll,                
+                                   System.Core.ni.dll, bcrypt.dll,             
+                                   Mam.Agent.Core.dll, Mam.Core.dll,           
+                                   rasadhlp.dll, Mam.StdMsg.Core.dll,          
+                                   System.ServiceProcess.dll,                  
+                                   Mam.CoreAddin.Tibco.dll,                    
+                                   TIBCO.Rendezvous.dll, tibrv.dll,            
+                                   MSVCR80.dll,                                
+                                   Mam.StdMsg.Core.Addin.Tibco.dll,            
+                                   NTMARTA.DLL, SAMLIB.dll, perfcounter.dll,   
+                                   pdh.dll, aspnet_counters.dll,               
+                                   aspnet_perf.dll, MSVCR120_CLR0400.dll,      
+                                   aspnet_perf.dll, NETAPI32.dll, rasman.dll,  
+                                   CRYPT32.dll, MSASN1.dll,                    
+                                   System.Management.ni.dll,                   
+                                   System.Management.dll, wminet_utils.dll,    
+                                   wmiutils.dll, wbemcomn.dll, wbemprox.dll,   
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   Mam.AgentAddIn.Metric.dll,                  
+                                   Mam.AgentAddIn.Alert.dll,                   
+                                   System.Web.Services.ni.dll,                 
+                                   System.Web.Services.dll, System.Core.dll,   
+                                   perfos.dll, wevtapi.dll, perfdisk.dll,      
+                                   diasymreader.dll                            
+WmiPrvSE.exe                 17612 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, wbemcomn.dll, OLEAUT32.dll,     
+                                   ole32.dll, FastProx.dll, NTDSAPI.dll,       
+                                   DNSAPI.dll, WS2_32.dll, NSI.dll,            
+                                   WLDAP32.dll, PSAPI.DLL, NETAPI32.dll,       
+                                   Secur32.dll, NCObjAPI.DLL, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll, NTMARTA.DLL, 
+                                   SAMLIB.dll, CLBCatQ.DLL, rsaenh.dll,        
+                                   wbemsvc.dll, wmiutils.dll, cimwin32.dll,    
+                                   framedynos.dll, SETUPAPI.dll, WINBRAND.dll, 
+                                   POWRPROF.dll, SECURITY.DLL, CRYPT32.dll,    
+                                   MSASN1.dll, USERENV.dll, credssp.dll,       
+                                   schannel.dll, cscapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, WINNSI.DLL, dhcpcsvc6.DLL,    
+                                   WINSTA.dll, SHELL32.dll, SHLWAPI.dll,       
+                                   comctl32.dll, mswsock.dll, rasadhlp.dll,    
+                                   nlaapi.dll, CFGMGR32.DLL, WINTRUST.dll,     
+                                   imagehlp.dll, fwpuclnt.dll, VERSION.dll,    
+                                   WTSAPI32.dll, profprov.dll, urlmon.dll,     
+                                   iertutil.dll, WININET.dll, Normaliz.dll,    
+                                   Cabinet.dll, wshtcpip.dll, wship6.dll,      
+                                   napinsp.dll, winrnr.dll, perfos.dll,        
+                                   PROPSYS.dll, CbsApi.dll, SXS.DLL,           
+                                   kerberos.dll, cryptdll.dll, bcrypt.dll,     
+                                   dskquota.dll, netshell.dll, tscfgwmi.dll,   
+                                   REGAPI.dll, mstlsapi.dll, ACTIVEDS.dll,     
+                                   adsldpc.dll, credui.dll, ATL.DLL,           
+                                   cfgbkend.dll, UTILDLL.dll, RDPCFGEX.DLL     
+processes.exe                15108 ntdll.dll, kernel32.dll, USER32.dll,        
+                                   GDI32.dll, ADVAPI32.dll, RPCRT4.dll,        
+                                   USERENV.dll, msvcrt.dll, Secur32.dll,       
+                                   WS2_32.dll, NSI.dll, MSVCR90.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   rsaenh.dll, mswsock.dll, wshtcpip.dll,      
+                                   NLAapi.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,     
+                                   DNSAPI.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   napinsp.dll, winrnr.dll, WLDAP32.dll,       
+                                   PSAPI.DLL, rasadhlp.dll, wship6.dll,        
+                                   NTMARTA.DLL, SAMLIB.dll, ole32.dll          
+ntevl.exe                     6324 ntdll.dll, kernel32.dll, MPR.dll,           
+                                   ADVAPI32.dll, RPCRT4.dll, USER32.dll,       
+                                   GDI32.dll, icuin51.dll, icuuc51.dll,        
+                                   icudt51.dll, MSVCR100.dll, MSVCP100.dll,    
+                                   WS2_32.dll, msvcrt.dll, NSI.dll,            
+                                   MSVCR90.dll, ole32.dll, OLEAUT32.dll,       
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   rsaenh.dll, wevtapi.dll, mswsock.dll,       
+                                   wshtcpip.dll, NLAapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll, wship6.dll                    
+ntservices.exe               17272 ntdll.dll, kernel32.dll, MPR.dll,           
+                                   ADVAPI32.dll, RPCRT4.dll, USER32.dll,       
+                                   GDI32.dll, WS2_32.dll, msvcrt.dll, NSI.dll, 
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, mswsock.dll,         
+                                   wshtcpip.dll, NLAapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll, wship6.dll                    
+dirscan.exe                  11900 ntdll.dll, kernel32.dll, WINMM.dll,         
+                                   msvcrt.dll, USER32.dll, GDI32.dll,          
+                                   ADVAPI32.dll, RPCRT4.dll, ole32.dll,        
+                                   OLEAUT32.dll, OLEACC.dll, WS2_32.dll,       
+                                   NSI.dll, MSVCR90.dll, MPR.dll, IMM32.DLL,   
+                                   MSCTF.dll, LPK.DLL, USP10.dll, rsaenh.dll,  
+                                   mswsock.dll, wshtcpip.dll, NLAapi.dll,      
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   Secur32.dll, WINNSI.DLL, dhcpcsvc6.DLL,     
+                                   napinsp.dll, winrnr.dll, WLDAP32.dll,       
+                                   PSAPI.DLL, rasadhlp.dll, wship6.dll         
+hdb.exe                      15804 ntdll.dll, kernel32.dll, WS2_32.dll,        
+                                   msvcrt.dll, ADVAPI32.dll, RPCRT4.dll,       
+                                   NSI.dll, USER32.dll, GDI32.dll,             
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, mswsock.dll,         
+                                   wshtcpip.dll                                
+cdm.exe                      19424 ntdll.dll, kernel32.dll, MPR.dll,           
+                                   ADVAPI32.dll, RPCRT4.dll, USER32.dll,       
+                                   GDI32.dll, WS2_32.dll, msvcrt.dll, NSI.dll, 
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, NLAapi.dll,          
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   Secur32.dll, WINNSI.DLL, dhcpcsvc6.DLL,     
+                                   napinsp.dll, mswsock.dll, winrnr.dll,       
+                                   WLDAP32.dll, PSAPI.DLL, rasadhlp.dll,       
+                                   NTMARTA.DLL, SAMLIB.dll, ole32.dll,         
+                                   perfdisk.dll, perfos.dll, Perfctrs.dll,     
+                                   wshtcpip.dll, wship6.dll                    
+logmon.exe                   19060 ntdll.dll, kernel32.dll, MPR.dll,           
+                                   ADVAPI32.dll, RPCRT4.dll, USER32.dll,       
+                                   GDI32.dll, icuin51.dll, icuuc51.dll,        
+                                   icudt51.dll, MSVCR100.dll, MSVCP100.dll,    
+                                   WS2_32.dll, msvcrt.dll, NSI.dll,            
+                                   MSVCR90.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, rsaenh.dll, mswsock.dll,         
+                                   wshtcpip.dll, NLAapi.dll, IPHLPAPI.DLL,     
+                                   dhcpcsvc.DLL, DNSAPI.dll, Secur32.dll,      
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   winrnr.dll, WLDAP32.dll, PSAPI.DLL,         
+                                   rasadhlp.dll, wship6.dll                    
+rundll32.exe                 17816 ntdll.dll, kernel32.dll, USER32.dll,        
+                                   GDI32.dll, ADVAPI32.dll, RPCRT4.dll,        
+                                   msvcrt.dll, imagehlp.dll, IMM32.DLL,        
+                                   MSCTF.dll, LPK.DLL, USP10.dll, pla.dll,     
+                                   OLEAUT32.dll, ole32.dll, pdh.dll, tdh.dll,  
+                                   NSI.dll, SHLWAPI.dll, CRYPT32.dll,          
+                                   MSASN1.dll, USERENV.dll, Secur32.dll,       
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WS2_32.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   SHELL32.dll, wevtapi.dll, PSAPI.DLL,        
+                                   comctl32.dll, CLBCatQ.DLL, taskschd.dll,    
+                                   XmlLite.dll, msxml3.dll, bcrypt.dll,        
+                                   NTMARTA.DLL, WLDAP32.dll, SAMLIB.dll,       
+                                   perfos.dll, perfdisk.dll, Perfctrs.dll,     
+                                   wmiaprpl.dll, loadperf.dll, wbemcomn.dll    
+WmiApSrv.exe                 17476 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, OLEAUT32.dll, ole32.dll,        
+                                   wbemcomn.dll, loadperf.dll, IMM32.DLL,      
+                                   MSCTF.dll, LPK.DLL, USP10.dll, PSAPI.DLL,   
+                                   CLBCatQ.DLL, wbemprox.dll, WS2_32.dll,      
+                                   NSI.dll, rsaenh.dll, wbemsvc.dll,           
+                                   fastprox.dll, NTDSAPI.dll, DNSAPI.dll,      
+                                   WLDAP32.dll, NETAPI32.dll, Secur32.dll,     
+                                   wmiutils.dll, vmStatsProvider.dll,          
+                                   MSVCR90.dll, vmGuestLib.DLL, MSVCP90.dll,   
+                                   wmiprov.dll, WMI.dll                        
+w3wp.exe                     13344 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, USER32.dll,         
+                                   GDI32.dll, ole32.dll, IISUTIL.dll,          
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, WS2_32.dll, NSI.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   NTMARTA.DLL, WLDAP32.dll, PSAPI.DLL,        
+                                   SAMLIB.dll, w3wphost.dll, OLEAUT32.dll,     
+                                   nativerd.dll, XmlLite.dll, IISRES.DLL,      
+                                   rsaenh.dll, mscoree.dll, CLBCatQ.DLL,       
+                                   mlang.dll, comctl32.dll, SHLWAPI.dll,       
+                                   webengine4.dll, MSVCR120_CLR0400.dll,       
+                                   mscoreei.dll, clr.dll,                      
+                                   MSVCR110_CLR0400.dll, iiscore.dll,          
+                                   W3TP.dll, w3dt.dll, HTTPAPI.dll, slc.dll,   
+                                   faultrep.dll, VERSION.dll, NLAapi.dll,      
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   mswsock.dll, winrnr.dll, wshtcpip.dll,      
+                                   wship6.dll, rasadhlp.dll, cachuri.dll,      
+                                   cachfile.dll, cachtokn.dll, cachhttp.dll,   
+                                   compdyn.dll, compstat.dll, defdoc.dll,      
+                                   protsup.dll, redirect.dll, iis_ssi.dll,     
+                                   static.dll, authanon.dll, authbas.dll,      
+                                   authsspi.dll, NETAPI32.dll, iprestr.dll,    
+                                   modrqflt.dll, custerr.dll, loghttp.dll,     
+                                   iisetw.dll, iisfreb.dll, iisreqs.dll,       
+                                   WSOCK32.dll, isapi.dll, filter.dll,         
+                                   validcfg.dll, rewrite.dll, MSVCR90.dll,     
+                                   MSVCP90.dll, dirlist.dll, authcert.dll,     
+                                   urlauthz.dll, authmd5.dll, authmap.dll,     
+                                   aspnet_filter.dll, wbhst_pm.dll,            
+                                   webengine.dll,                              
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.dll, clrjit.dll, System.Web.dll,   
+                                   sxs.dll, System.dll, nlssorting.dll,        
+                                   System.Web.ApplicationServices.dll,         
+                                   System.Configuration.dll, System.Core.dll,  
+                                   System.Xml.dll, System.Runtime.Caching.dll, 
+                                   Microsoft.Build.Utilities.v4.0.dll,         
+                                   Microsoft.JScript.dll, System.Web.Mvc.dll,  
+                                   System.Web.WebPages.dll,                    
+                                   System.Web.WebPages.Razor.dll,              
+                                   System.Web.WebPages.Deployment.dll,         
+                                   WebActivatorEx.dll,                         
+                                   Microsoft.Web.Infrastructure.dll,           
+                                   Antlr3.Runtime.dll, AutoMapper.dll,         
+                                   Castle.Core.dll, Common.Logging.Core.dll,   
+                                   Common.Logging.dll,                         
+                                   Common.Logging.Log4Net1213.dll, Dapper.dll, 
+                                   Elasticsearch.Net.dll, Elmah.dll,           
+                                   Elmah.Io.ElasticSearch.dll,                 
+                                   FileHelpers.dll, ICrm.Shared.Dal.dll,       
+                                   ICrm.Shared.Dal.Implementation.dll,         
+                                   ICrm.Shared.Data.dll,                       
+                                   ICrm.Shared.Infrastructure.dll,             
+                                   ICrm.Shared.Infrastructure.Implementation.dl
+                                   l, ICrm.SOA.Notification.dll,               
+                                   ICrm.SOA.Services.dll, log4net.dll,         
+                                   Microsoft.Crm.Sdk.Proxy.dll,                
+                                   Microsoft.Xrm.Sdk.dll, Nest.dll,            
+                                   Newtonsoft.Json.dll, Ninject.dll,           
+                                   Ninject.Extensions.Conventions.dll,         
+                                   Ninject.Extensions.Factory.dll,             
+                                   Ninject.Extensions.Interception.dll,        
+                                   Ninject.Extensions.Interception.DynamicProxy
+                                   .dll, Ninject.Web.Common.dll,               
+                                   Ninject.Web.WebApi.dll,                     
+                                   Ninject.Web.WebApi.WebHost.dll,             
+                                   Nustache.Core.dll,                          
+                                   Sgcib.Research.Services.Authentication.Clien
+                                   ts.dll,                                     
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.dll,                                   
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.V2.dll,                                
+                                   Sgcib.ResearchSsoClient.AspNet.dll,         
+                                   Sgcib.TMon.Logger.dll,                      
+                                   Swashbuckle.Core.dll,                       
+                                   System.Interactive.dll,                     
+                                   System.Net.Http.Extensions.dll,             
+                                   System.Net.Http.Formatting.dll,             
+                                   System.Net.Http.Primitives.dll,             
+                                   System.Web.Cors.dll,                        
+                                   System.Web.Helpers.dll,                     
+                                   System.Web.Http.Cors.dll,                   
+                                   System.Web.Http.dll,                        
+                                   System.Web.Http.WebHost.dll,                
+                                   System.Web.Razor.dll,                       
+                                   System.Runtime.Serialization.dll,           
+                                   System.Runtime.dll,                         
+                                   System.Runtime.InteropServices.dll,         
+                                   System.Net.Http.dll,                        
+                                   System.ServiceModel.dll, SMDiagnostics.dll, 
+                                   System.ServiceModel.Internals.dll,          
+                                   System.Transactions.dll, rasapi32.dll,      
+                                   rasman.dll, TAPI32.dll, rtutils.dll,        
+                                   WINMM.dll, OLEACC.dll, winhttp.dll,         
+                                   AppDynamics.Agent.dll,                      
+                                   AppDynamics.Agent.Log.dll,                  
+                                   AppDynamics.Agent.Conf.dll,                 
+                                   AppDynamics.ProtoBufNet.dll,                
+                                   System.Management.dll,                      
+                                   System.ServiceProcess.dll, System.Data.dll, 
+                                   AppDynamics.Agent.Mono.dll, credssp.dll,    
+                                   schannel.dll, dssenh.dll, ncrypt.dll,       
+                                   bcrypt.dll, GPAPI.dll,                      
+                                   AppDynamics.Agent.Helpers.dll,              
+                                   System.Web.Services.dll,                    
+                                   AppDynamics.Agent.Mono.Cecil.dll,           
+                                   System.IdentityModel.dll,                   
+                                   System.ServiceModel.Channels.dll,           
+                                   System.ServiceModel.Web.dll,                
+                                   Microsoft.ServiceBus.dll, wminet_utils.dll, 
+                                   wmiutils.dll, wbemcomn.dll, wbemprox.dll,   
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   App_global.asax.2ujw43ym.dll,               
+                                   System.ServiceModel.Activation.dll,         
+                                   System.Web.Extensions.dll,                  
+                                   System.Numerics.dll, System.Xml.Linq.dll,   
+                                   System.Security.dll, Microsoft.CS           
+w3wp.exe                     17904 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, USER32.dll,         
+                                   GDI32.dll, ole32.dll, IISUTIL.dll,          
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, WS2_32.dll, NSI.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   NTMARTA.DLL, WLDAP32.dll, PSAPI.DLL,        
+                                   SAMLIB.dll, w3wphost.dll, OLEAUT32.dll,     
+                                   nativerd.dll, XmlLite.dll, IISRES.DLL,      
+                                   rsaenh.dll, mscoree.dll, CLBCatQ.DLL,       
+                                   mlang.dll, comctl32.dll, SHLWAPI.dll,       
+                                   webengine4.dll, MSVCR120_CLR0400.dll,       
+                                   mscoreei.dll, clr.dll,                      
+                                   MSVCR110_CLR0400.dll, iiscore.dll,          
+                                   W3TP.dll, w3dt.dll, HTTPAPI.dll, slc.dll,   
+                                   faultrep.dll, VERSION.dll, NLAapi.dll,      
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   mswsock.dll, winrnr.dll, wshtcpip.dll,      
+                                   wship6.dll, rasadhlp.dll, cachuri.dll,      
+                                   cachfile.dll, cachtokn.dll, cachhttp.dll,   
+                                   compdyn.dll, compstat.dll, defdoc.dll,      
+                                   protsup.dll, redirect.dll, iis_ssi.dll,     
+                                   static.dll, authanon.dll, authbas.dll,      
+                                   authsspi.dll, NETAPI32.dll, iprestr.dll,    
+                                   modrqflt.dll, custerr.dll, loghttp.dll,     
+                                   iisetw.dll, iisfreb.dll, iisreqs.dll,       
+                                   WSOCK32.dll, isapi.dll, filter.dll,         
+                                   validcfg.dll, rewrite.dll, MSVCR90.dll,     
+                                   MSVCP90.dll, dirlist.dll, authcert.dll,     
+                                   urlauthz.dll, authmd5.dll, authmap.dll,     
+                                   aspnet_filter.dll, wbhst_pm.dll,            
+                                   webengine.dll,                              
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.dll, clrjit.dll, System.Web.dll,   
+                                   sxs.dll, System.dll, nlssorting.dll,        
+                                   System.Web.ApplicationServices.dll,         
+                                   System.Configuration.dll, System.Core.dll,  
+                                   System.Xml.dll, System.Runtime.Caching.dll, 
+                                   Microsoft.Build.Utilities.v4.0.dll,         
+                                   Microsoft.JScript.dll,                      
+                                   System.Web.WebPages.Razor.dll,              
+                                   WebActivatorEx.dll,                         
+                                   System.Web.WebPages.dll,                    
+                                   System.Web.Mvc.dll,                         
+                                   System.Web.WebPages.Deployment.dll,         
+                                   Microsoft.Web.Infrastructure.dll,           
+                                   Antlr3.Runtime.dll, AutoMapper.dll,         
+                                   Castle.Core.dll, Common.Logging.Core.dll,   
+                                   Common.Logging.dll,                         
+                                   Common.Logging.Log4Net1213.dll, Dapper.dll, 
+                                   Elasticsearch.Net.dll, Elmah.dll,           
+                                   Elmah.Io.ElasticSearch.dll,                 
+                                   ICrm.Client.Reporting.Services.dll,         
+                                   ICrm.Shared.Dal.dll,                        
+                                   ICrm.Shared.Dal.Implementation.dll,         
+                                   ICrm.Shared.Data.dll,                       
+                                   ICrm.Shared.Infrastructure.dll,             
+                                   ICrm.Shared.Reporting.dll, log4net.dll,     
+                                   Microsoft.Crm.Sdk.Proxy.dll,                
+                                   Microsoft.Exchange.WebServices.Auth.dll,    
+                                   Microsoft.Xrm.Sdk.dll, Nest.dll,            
+                                   Newtonsoft.Json.dll, Ninject.dll,           
+                                   Ninject.Extensions.Conventions.dll,         
+                                   Ninject.Extensions.Factory.dll,             
+                                   Ninject.Extensions.Interception.dll,        
+                                   Ninject.Extensions.Interception.DynamicProxy
+                                   .dll, Ninject.Web.Common.dll,               
+                                   Ninject.Web.WebApi.dll,                     
+                                   Sgcib.Research.Services.Authentication.Clien
+                                   ts.dll,                                     
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.dll,                                   
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.V2.dll,                                
+                                   Sgcib.ResearchSsoClient.AspNet.dll,         
+                                   Sgcib.TMon.Logger.dll,                      
+                                   Swashbuckle.Core.dll,                       
+                                   System.Net.Http.Extensions.dll,             
+                                   System.Net.Http.Formatting.dll,             
+                                   System.Net.Http.Primitives.dll,             
+                                   System.Web.Helpers.dll,                     
+                                   System.Web.Http.dll,                        
+                                   System.Web.Http.WebHost.dll,                
+                                   System.Web.Razor.dll,                       
+                                   System.Runtime.Serialization.dll,           
+                                   System.Runtime.dll,                         
+                                   System.Runtime.InteropServices.dll,         
+                                   System.Net.Http.dll, SMDiagnostics.dll,     
+                                   System.Data.dll, System.ServiceModel.dll,   
+                                   System.ServiceModel.Internals.dll,          
+                                   System.Transactions.dll, rasapi32.dll,      
+                                   rasman.dll, TAPI32.dll, rtutils.dll,        
+                                   WINMM.dll, OLEACC.dll, winhttp.dll,         
+                                   AppDynamics.Agent.dll,                      
+                                   AppDynamics.Agent.Log.dll,                  
+                                   AppDynamics.Agent.Conf.dll,                 
+                                   AppDynamics.ProtoBufNet.dll,                
+                                   System.Management.dll,                      
+                                   System.ServiceProcess.dll,                  
+                                   AppDynamics.Agent.Mono.dll, credssp.dll,    
+                                   schannel.dll, dssenh.dll, ncrypt.dll,       
+                                   bcrypt.dll, GPAPI.dll,                      
+                                   AppDynamics.Agent.Helpers.dll,              
+                                   System.Web.Services.dll,                    
+                                   AppDynamics.Agent.Mono.Cecil.dll,           
+                                   System.IdentityModel.dll,                   
+                                   System.ServiceModel.Channels.dll,           
+                                   System.ServiceModel.Web.dll,                
+                                   Microsoft.ServiceBus.dll, wminet_utils.dll, 
+                                   wmiutils.dll, wbemcomn.dll, wbemprox.dll,   
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   App_global.asax.4yftg_a0.dll,               
+                                   System.ServiceModel.Activation.dll,         
+                                   System.Web.Extensions.dll,                  
+                                   System.Security.dll, System.Numerics.dll,   
+                                   System.Xml.Linq.dll, Microsoft.CSharp.dll,  
+                                   System.Dynamic.dll,                         
+                                   Microsoft.IdentityModel.dll,                
+                                   System.Xaml.Hosting.dll,                    
+                                   System.Web.Mobile.dll, gzip.dll,            
+                                   System.Runtime.                             
+w3wp.exe                     11108 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, USER32.dll,         
+                                   GDI32.dll, ole32.dll, IISUTIL.dll,          
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, WS2_32.dll, NSI.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   NTMARTA.DLL, WLDAP32.dll, PSAPI.DLL,        
+                                   SAMLIB.dll, w3wphost.dll, OLEAUT32.dll,     
+                                   nativerd.dll, XmlLite.dll, IISRES.DLL,      
+                                   rsaenh.dll, mscoree.dll, CLBCatQ.DLL,       
+                                   mlang.dll, comctl32.dll, SHLWAPI.dll,       
+                                   webengine4.dll, MSVCR120_CLR0400.dll,       
+                                   mscoreei.dll, clr.dll,                      
+                                   MSVCR110_CLR0400.dll, iiscore.dll,          
+                                   W3TP.dll, w3dt.dll, HTTPAPI.dll, slc.dll,   
+                                   faultrep.dll, VERSION.dll, NLAapi.dll,      
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   mswsock.dll, winrnr.dll, wshtcpip.dll,      
+                                   wship6.dll, rasadhlp.dll, cachuri.dll,      
+                                   cachfile.dll, cachtokn.dll, cachhttp.dll,   
+                                   compdyn.dll, compstat.dll, defdoc.dll,      
+                                   protsup.dll, redirect.dll, iis_ssi.dll,     
+                                   static.dll, authanon.dll, authbas.dll,      
+                                   authsspi.dll, NETAPI32.dll, iprestr.dll,    
+                                   modrqflt.dll, custerr.dll, loghttp.dll,     
+                                   iisetw.dll, iisfreb.dll, iisreqs.dll,       
+                                   WSOCK32.dll, isapi.dll, filter.dll,         
+                                   validcfg.dll, rewrite.dll, MSVCR90.dll,     
+                                   MSVCP90.dll, dirlist.dll, authcert.dll,     
+                                   urlauthz.dll, authmd5.dll, authmap.dll,     
+                                   aspnet_filter.dll, wbhst_pm.dll,            
+                                   webengine.dll,                              
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.dll, clrjit.dll, System.Web.dll,   
+                                   sxs.dll, System.dll, nlssorting.dll,        
+                                   System.Web.ApplicationServices.dll,         
+                                   System.Configuration.dll, System.Core.dll,  
+                                   System.Xml.dll, System.Runtime.Caching.dll, 
+                                   Microsoft.Build.Utilities.v4.0.dll,         
+                                   Microsoft.JScript.dll,                      
+                                   System.Web.WebPages.Deployment.dll,         
+                                   System.Web.Mvc.dll,                         
+                                   System.Web.WebPages.dll,                    
+                                   System.Web.WebPages.Razor.dll,              
+                                   WebActivatorEx.dll,                         
+                                   Microsoft.Web.Infrastructure.dll,           
+                                   Antlr3.Runtime.dll, AutoMapper.dll,         
+                                   Castle.Core.dll, Common.Logging.Core.dll,   
+                                   Common.Logging.dll,                         
+                                   Common.Logging.Log4Net1213.dll, Dapper.dll, 
+                                   Elasticsearch.Net.dll, Elmah.dll,           
+                                   Elmah.Io.ElasticSearch.dll,                 
+                                   ICrm.Server.Batches.Services.dll,           
+                                   ICrm.Shared.Dal.dll,                        
+                                   ICrm.Shared.Dal.Implementation.dll,         
+                                   ICrm.Shared.Data.dll,                       
+                                   ICrm.Shared.Infrastructure.dll,             
+                                   ICrm.Shared.Reporting.dll, log4net.dll,     
+                                   Microsoft.Crm.Sdk.Proxy.dll,                
+                                   Microsoft.Exchange.WebServices.Auth.dll,    
+                                   Microsoft.Xrm.Sdk.dll, Nest.dll,            
+                                   Newtonsoft.Json.dll, Ninject.dll,           
+                                   Ninject.Extensions.Conventions.dll,         
+                                   Ninject.Extensions.Factory.dll,             
+                                   Ninject.Extensions.Interception.dll,        
+                                   Ninject.Extensions.Interception.DynamicProxy
+                                   .dll, Ninject.Web.Common.dll,               
+                                   Ninject.Web.WebApi.dll,                     
+                                   Sgcib.TMon.Logger.dll,                      
+                                   Swashbuckle.Core.dll,                       
+                                   System.Interactive.dll,                     
+                                   System.Net.Http.Extensions.dll,             
+                                   System.Net.Http.Formatting.dll,             
+                                   System.Net.Http.Primitives.dll,             
+                                   System.Web.Helpers.dll,                     
+                                   System.Web.Http.dll,                        
+                                   System.Web.Http.WebHost.dll,                
+                                   System.Web.Razor.dll, System.Runtime.dll,   
+                                   System.Runtime.InteropServices.dll,         
+                                   System.Net.Http.dll,                        
+                                   System.Runtime.Serialization.dll,           
+                                   SMDiagnostics.dll, System.Data.dll,         
+                                   System.ServiceModel.dll,                    
+                                   System.ServiceModel.Internals.dll,          
+                                   System.Transactions.dll, rasapi32.dll,      
+                                   rasman.dll, TAPI32.dll, rtutils.dll,        
+                                   WINMM.dll, OLEACC.dll, winhttp.dll,         
+                                   AppDynamics.Agent.dll,                      
+                                   AppDynamics.Agent.Log.dll,                  
+                                   AppDynamics.Agent.Conf.dll,                 
+                                   AppDynamics.ProtoBufNet.dll,                
+                                   System.Management.dll,                      
+                                   System.ServiceProcess.dll,                  
+                                   AppDynamics.Agent.Mono.dll, credssp.dll,    
+                                   schannel.dll, dssenh.dll, ncrypt.dll,       
+                                   bcrypt.dll, GPAPI.dll,                      
+                                   AppDynamics.Agent.Helpers.dll,              
+                                   System.Web.Services.dll,                    
+                                   AppDynamics.Agent.Mono.Cecil.dll,           
+                                   System.IdentityModel.dll,                   
+                                   System.ServiceModel.Channels.dll,           
+                                   System.ServiceModel.Web.dll,                
+                                   Microsoft.ServiceBus.dll, wminet_utils.dll, 
+                                   wmiutils.dll, wbemcomn.dll, wbemprox.dll,   
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   App_global.asax._rwpkzct.dll,               
+                                   System.ServiceModel.Activation.dll,         
+                                   System.Web.Extensions.dll,                  
+                                   System.Numerics.dll, System.Xml.Linq.dll,   
+                                   System.Xaml.Hosting.dll,                    
+                                   System.Web.Mobile.dll, gzip.dll,            
+                                   diasymreader.dll,                           
+                                   System.Runtime.Remoting.dll,                
+                                   clrcompression.dll                          
+w3wp.exe                      8028 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, USER32.dll,         
+                                   GDI32.dll, ole32.dll, IISUTIL.dll,          
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   Secur32.dll, WS2_32.dll, NSI.dll,           
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   NTMARTA.DLL, WLDAP32.dll, PSAPI.DLL,        
+                                   SAMLIB.dll, w3wphost.dll, OLEAUT32.dll,     
+                                   nativerd.dll, XmlLite.dll, IISRES.DLL,      
+                                   rsaenh.dll, mscoree.dll, CLBCatQ.DLL,       
+                                   mlang.dll, comctl32.dll, SHLWAPI.dll,       
+                                   webengine4.dll, MSVCR120_CLR0400.dll,       
+                                   mscoreei.dll, clr.dll,                      
+                                   MSVCR110_CLR0400.dll, iiscore.dll,          
+                                   W3TP.dll, w3dt.dll, HTTPAPI.dll, slc.dll,   
+                                   faultrep.dll, VERSION.dll, NLAapi.dll,      
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, DNSAPI.dll,     
+                                   WINNSI.DLL, dhcpcsvc6.DLL, napinsp.dll,     
+                                   mswsock.dll, winrnr.dll, wshtcpip.dll,      
+                                   wship6.dll, rasadhlp.dll, cachuri.dll,      
+                                   cachfile.dll, cachtokn.dll, cachhttp.dll,   
+                                   compdyn.dll, compstat.dll, defdoc.dll,      
+                                   protsup.dll, redirect.dll, iis_ssi.dll,     
+                                   static.dll, authanon.dll, authbas.dll,      
+                                   authsspi.dll, NETAPI32.dll, iprestr.dll,    
+                                   modrqflt.dll, custerr.dll, loghttp.dll,     
+                                   iisetw.dll, iisfreb.dll, iisreqs.dll,       
+                                   WSOCK32.dll, isapi.dll, filter.dll,         
+                                   validcfg.dll, rewrite.dll, MSVCR90.dll,     
+                                   MSVCP90.dll, dirlist.dll, authcert.dll,     
+                                   urlauthz.dll, authmd5.dll, authmap.dll,     
+                                   aspnet_filter.dll, wbhst_pm.dll,            
+                                   webengine.dll,                              
+                                   AppDynamics.Profiler_x64.dll, SHELL32.dll,  
+                                   MSVCP120.dll, MSVCR120.dll, culture.dll,    
+                                   mscorlib.ni.dll, System.ni.dll,             
+                                   System.Core.ni.dll, System.Web.ni.dll,      
+                                   sxs.dll, nlssorting.dll,                    
+                                   System.Web.ApplicationServices.ni.dll,      
+                                   System.Configuration.ni.dll,                
+                                   System.Xml.ni.dll, System.Drawing.ni.dll,   
+                                   Microsoft.Build.Framework.ni.dll,           
+                                   Microsoft.Build.Utilities.v4.0.ni.dll,      
+                                   System.ComponentModel.DataAnnotations.ni.dll
+                                   , System.Runtime.Caching.ni.dll,            
+                                   System.Data.ni.dll,                         
+                                   System.DirectoryServices.Protocols.ni.dll,  
+                                   System.DirectoryServices.ni.dll,            
+                                   System.EnterpriseServices.ni.dll,           
+                                   System.ServiceProcess.ni.dll,               
+                                   System.Web.Services.ni.dll,                 
+                                   System.Security.ni.dll,                     
+                                   System.Design.ni.dll,                       
+                                   Microsoft.Build.Tasks.v4.0.ni.dll,          
+                                   System.Windows.Forms.ni.dll,                
+                                   System.Web.RegularExpressions.ni.dll,       
+                                   System.Transactions.ni.dll,                 
+                                   System.Xaml.ni.dll,                         
+                                   System.Data.SqlXml.ni.dll,                  
+                                   System.Numerics.ni.dll,                     
+                                   System.Runtime.Remoting.ni.dll,             
+                                   System.Configuration.Install.ni.dll,        
+                                   Accessibility.ni.dll,                       
+                                   System.Drawing.Design.ni.dll,               
+                                   System.Data.OracleClient.ni.dll,            
+                                   System.Runtime.Serialization.Formatters.Soap
+                                   .ni.dll, System.Deployment.ni.dll,          
+                                   System.Runtime.Serialization.ni.dll,        
+                                   SMDiagnostics.ni.dll,                       
+                                   System.ServiceModel.Internals.ni.dll,       
+                                   clrjit.dll, Microsoft.JScript.ni.dll,       
+                                   System.Web.WebPages.Razor.dll,              
+                                   System.Web.WebPages.Deployment.dll,         
+                                   System.Web.WebPages.dll,                    
+                                   WebActivatorEx.dll, System.Web.Mvc.dll,     
+                                   Microsoft.Web.Infrastructure.dll,           
+                                   Antlr3.Runtime.dll, AutoMapper.dll,         
+                                   Castle.Core.dll, Common.Logging.Core.dll,   
+                                   Common.Logging.dll,                         
+                                   Common.Logging.Log4Net1213.dll, Dapper.dll, 
+                                   Elasticsearch.Net.dll, Elmah.dll,           
+                                   Elmah.Io.ElasticSearch.dll,                 
+                                   FileHelpers.dll, ICrm.Shared.Dal.dll,       
+                                   ICrm.Shared.Dal.Implementation.dll,         
+                                   ICrm.Shared.Data.dll,                       
+                                   ICrm.Shared.Infrastructure.dll,             
+                                   ICrm.Shared.Infrastructure.Implementation.dl
+                                   l, ICrm.SOA.Notification.dll,               
+                                   ICrm.SOA.Services.dll, log4net.dll,         
+                                   Microsoft.Crm.Sdk.Proxy.dll,                
+                                   Microsoft.Xrm.Sdk.dll, Nest.dll,            
+                                   Newtonsoft.Json.dll, Ninject.dll,           
+                                   Ninject.Extensions.Conventions.dll,         
+                                   Ninject.Extensions.Factory.dll,             
+                                   Ninject.Extensions.Interception.dll,        
+                                   Ninject.Extensions.Interception.DynamicProxy
+                                   .dll, Ninject.Web.Common.dll,               
+                                   Ninject.Web.WebApi.dll,                     
+                                   Ninject.Web.WebApi.WebHost.dll,             
+                                   Nustache.Core.dll,                          
+                                   Sgcib.Research.Services.Authentication.Clien
+                                   ts.dll,                                     
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.dll,                                   
+                                   Sgcib.Research.Services.Authentication.Contr
+                                   acts.V2.dll,                                
+                                   Sgcib.ResearchSsoClient.AspNet.dll,         
+                                   Sgcib.TMon.Logger.dll,                      
+                                   Swashbuckle.Core.dll,                       
+                                   System.Interactive.dll,                     
+                                   System.Net.Http.Extensions.dll,             
+                                   System.Net.Http.Formatting.dll,             
+                                   System.Net.Http.Primitives.dll,             
+                                   System.Web.Helpers.dll,                     
+                                   System.Web.Http.dll,                        
+                                   System.Web.Http.WebHost.dll,                
+                                   System.Web.Razor.dll,                       
+                                   System.ComponentModel.Composition.ni.dll,   
+                                   System.Runtime.dll,                         
+                                   System.Runtime.InteropServices.dll,         
+                                   System.Net.Http.ni.dll,                     
+                                   System.ServiceModel.ni.dll,                 
+                                   System.IdentityModel.ni.dll,                
+                                   System.Runtime.Durabl                       
+csrss.exe                    19880 ntdll.dll, CSRSRV.dll, basesrv.dll,         
+                                   winsrv.dll, USER32.dll, KERNEL32.dll,       
+                                   GDI32.dll, ADVAPI32.dll, RPCRT4.dll,        
+                                   LPK.DLL, USP10.dll, msvcrt.dll, sxs.dll     
+winlogon.exe                 20048 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, Secur32.dll, WINSTA.dll,        
+                                   PSAPI.DLL, USERENV.dll, IMM32.DLL,          
+                                   MSCTF.dll, LPK.DLL, USP10.dll, apphelp.dll, 
+                                   NTMARTA.DLL, WLDAP32.dll, WS2_32.dll,       
+                                   NSI.dll, SAMLIB.dll, ole32.dll, SHSVCS.dll, 
+                                   slc.dll, MPR.dll                            
+ccSvcHst.exe                 18116 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+taskeng.exe                  19684 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, SHELL32.dll, SHLWAPI.dll,       
+                                   ole32.dll, OLEAUT32.dll, Secur32.dll,       
+                                   XmlLite.dll, MPR.dll, IMM32.DLL, MSCTF.dll, 
+                                   LPK.DLL, USP10.dll, comctl32.dll,           
+                                   rsaenh.dll, CLBCatQ.DLL, tschannel.dll,     
+                                   apphelp.dll, MsCtfMonitor.dll, MSUTB.dll,   
+                                   dwmapi.dll, WTSAPI32.dll, PlaySndSrv.dll,   
+                                   WINMM.dll, OLEACC.dll, dimsjob.dll,         
+                                   USERENV.dll, ncrypt.dll, CRYPT32.dll,       
+                                   MSASN1.dll, uxtheme.dll, GPAPI.dll,         
+                                   slc.dll, WINSTA.dll, pautoenr.dll,          
+                                   NETAPI32.dll, PSAPI.DLL, WLDAP32.dll,       
+                                   WS2_32.dll, NSI.dll, certcli.dll, ATL.DLL,  
+                                   certenroll.dll, NTDSAPI.dll, DNSAPI.dll,    
+                                   WinSCard.dll, WININET.dll, Normaliz.dll,    
+                                   iertutil.dll, MMDevAPI.DLL, QAgent.dll,     
+                                   fwpuclnt.dll, QUtil.dll, wevtapi.dll        
+rdpclip.exe                  19944 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, SHELL32.dll, SHLWAPI.dll,       
+                                   WINSTA.dll, WTSAPI32.dll, MPR.dll,          
+                                   ole32.dll, urlmon.dll, OLEAUT32.dll,        
+                                   iertutil.dll, IMM32.DLL, MSCTF.dll,         
+                                   LPK.DLL, USP10.dll, comctl32.dll, rsaenh.dl 
+dwm.exe                      19768 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, GDI32.dll, USER32.dll,          
+                                   msvcrt.dll, ole32.dll, OLEAUT32.dll,        
+                                   UxTheme.dll, IMM32.dll, MSCTF.dll,          
+                                   dwmredir.dll, LPK.DLL, USP10.dll, WINSTA.dl 
+WmiPrvSE.exe                 19640 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, USER32.dll, GDI32.dll,          
+                                   msvcrt.dll, wbemcomn.dll, OLEAUT32.dll,     
+                                   ole32.dll, FastProx.dll, NTDSAPI.dll,       
+                                   DNSAPI.dll, WS2_32.dll, NSI.dll,            
+                                   WLDAP32.dll, PSAPI.DLL, NETAPI32.dll,       
+                                   Secur32.dll, NCObjAPI.DLL, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll, NTMARTA.DLL, 
+                                   SAMLIB.dll, CLBCatQ.DLL, rsaenh.dll,        
+                                   wbemsvc.dll, wmiutils.dll,                  
+                                   ccmsdkprovider.dll, MSVCP100.dll,           
+                                   MSVCR100.dll, ccmcore.dll, SHLWAPI.dll,     
+                                   VERSION.dll, WTSAPI32.dll, CCMGenCert.dll,  
+                                   CRYPT32.dll, MSASN1.dll, USERENV.dll,       
+                                   smscore.dll, CCMUtilLib.dll, WSOCK32.dll,   
+                                   IPHLPAPI.DLL, dhcpcsvc.DLL, WINNSI.DLL,     
+                                   dhcpcsvc6.DLL, framedyn.dll, msvcp60.dll,   
+                                   AffinityAgent.dll, CcmTask.dll,             
+                                   LSUtilities.dll, ACTIVEDS.dll, adsldpc.dll, 
+                                   credui.dll, SHELL32.dll, ATL.DLL,           
+                                   FSPUtilLib.dll, CcmEmbedded.dll,            
+                                   WriteFilterManager.dll, ClientState.dll,    
+                                   WriteFilterWriteThroughLibrary.dll,         
+                                   comctl32.dll, esscli.dll,                   
+                                   UpdatesDeployment.dll, ccmcisdk.dll         
+conime.exe                   19116 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, GDI32.dll, USER32.dll,          
+                                   msvcrt.dll, ole32.dll, OLEAUT32.dll,        
+                                   UxTheme.dll, IMM32.dll, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, CLBCatQ.DLL                      
+explorer.exe                 18776 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, GDI32.dll, USER32.dll,          
+                                   msvcrt.dll, SHLWAPI.dll, SHELL32.dll,       
+                                   ole32.dll, OLEAUT32.dll, SHDOCVW.dll,       
+                                   UxTheme.dll, POWRPROF.dll, dwmapi.dll,      
+                                   gdiplus.dll, slc.dll, PROPSYS.dll,          
+                                   BROWSEUI.dll, IMM32.dll, MSCTF.dll,         
+                                   DUser.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, WindowsCodecs.dll,            
+                                   apphelp.dll, CLBCatQ.DLL, EhStorShell.dll,  
+                                   IconCodecService.dll, Secur32.dll,          
+                                   rsaenh.dll, timedate.cpl, ATL.DLL,          
+                                   NETAPI32.dll, PSAPI.DLL, OLEACC.dll,        
+                                   WINBRAND.dll, actxprxy.dll, USERENV.dll,    
+                                   msutb.dll, WTSAPI32.dll, urlmon.dll,        
+                                   iertutil.dll, NTMARTA.DLL, WLDAP32.dll,     
+                                   WS2_32.dll, NSI.dll, SAMLIB.dll,            
+                                   ieframe.dll, ExplorerFrame.dll,             
+                                   WININET.dll, Normaliz.dll, WINMM.dll,       
+                                   MMDevAPI.DLL, NetworkExplorer.dll,          
+                                   ntshrui.dll, cscapi.dll, MPR.dll,           
+                                   MLANG.dll, CRYPT32.dll, MSASN1.dll,         
+                                   VERSION.dll, MSVCP100.dll, MSVCR100.dll,    
+                                   ccL120U.dll, SXS.DLL, xmllite.dll,          
+                                   thumbcache.dll, EhStorAPI.dll,              
+                                   SETUPAPI.dll, WINTRUST.dll, imagehlp.dll,   
+                                   Cabinet.dll, stobject.dll, BatMeter.dll,    
+                                   WINSTA.dll, es.dll, SndVolSSO.dll,          
+                                   netshell.dll, IPHLPAPI.DLL, dhcpcsvc.DLL,   
+                                   DNSAPI.dll, WINNSI.DLL, dhcpcsvc6.DLL,      
+                                   nlaapi.dll, pnidui.dll, QUtil.dll,          
+                                   wevtapi.dll, wlanutil.dll, npmproxy.dll,    
+                                   cscui.dll, CSCDLL.dll, srchadmin.dll,       
+                                   webcheck.dll, QAgent.dll, fwpuclnt.dll,     
+                                   imapi2.dll, bthprops.cpl, zipfldr.dll,      
+                                   7-zip.dll, wshext.dll, COMDLG32.dll,        
+                                   twext.dll, vpshell2.dll, srtsp64.dll,       
+                                   mmcshext.dll, hhsetup.dll                   
+vmtoolsd.exe                 16444 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, ole32.dll, msvcrt.dll,          
+                                   GDI32.dll, USER32.dll, VERSION.dll,         
+                                   MSVCR90.dll, intl.dll, iconv.dll,           
+                                   glib-2.0.dll, WS2_32.dll, NSI.dll,          
+                                   SHELL32.dll, SHLWAPI.dll, gmodule-2.0.dll,  
+                                   gobject-2.0.dll, gthread-2.0.dll,           
+                                   vmtools.dll, OLEAUT32.dll, IMM32.DLL,       
+                                   MSCTF.dll, LPK.DLL, USP10.dll,              
+                                   comctl32.dll, IpHlpApi.dll, dhcpcsvc.DLL,   
+                                   DNSAPI.dll, Secur32.dll, WINNSI.DLL,        
+                                   dhcpcsvc6.DLL, USERENV.dll, hgfsServer.dll, 
+                                   hgfs.dll, MPR.dll, hgfsUsability.dll,       
+                                   vix.dll, dndcp.dll, sigc-2.0.dll,           
+                                   MSVCP90.dll, vmtray.dll, mfc90u.dll,        
+                                   COMCTL32.dll, MSIMG32.dll, UxTheme.dll,     
+                                   dwmapi.dll, MFC90ENU.DLL, WINSTA.dll        
+SCNotification.exe           20620 ntdll.dll, wow64.dll, wow64win.dll,         
+                                   wow64cpu.dll                                
+cmd.exe                      20296 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, apphelp.dll,        
+                                   SHELL32.dll, GDI32.dll, USER32.dll,         
+                                   SHLWAPI.dll, IMM32.DLL, MSCTF.dll, LPK.DLL, 
+                                   USP10.dll, comctl32.dll, ole32.dll,         
+                                   PROPSYS.dll, OLEAUT32.dll, USERENV.dll,     
+                                   Secur32.dll, CLBCatQ.DLL, SETUPAPI.dll      
+tasklist.exe                 18348 ntdll.dll, kernel32.dll, ADVAPI32.dll,      
+                                   RPCRT4.dll, msvcrt.dll, USER32.dll,         
+                                   GDI32.dll, ole32.dll, VERSION.dll, MPR.dll, 
+                                   OLEAUT32.dll, Secur32.dll, WS2_32.dll,      
+                                   NSI.dll, framedynos.dll, NETAPI32.dll,      
+                                   PSAPI.DLL, dbghelp.dll, SHLWAPI.dll,        
+                                   IMM32.DLL, MSCTF.dll, LPK.DLL, USP10.dll,   
+                                   comctl32.dll, CLBCatQ.DLL, wbemprox.dll,    
+                                   wbemcomn.dll, Winsta.dll, rsaenh.dll,       
+                                   wbemsvc.dll, fastprox.dll, NTDSAPI.dll,     
+                                   DNSAPI.dll, WLDAP32.dll, wmiutils.dll       
+sc queryex w32time  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+
+SERVICE_NAME: w32time 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 1096
+        FLAGS              : 
+W32tm /query /status -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+Leap Indicator: 0(no warning)
+Stratum: 4 (secondary reference - syncd by (S)NTP)
+Precision: -6 (15.625ms per tick)
+Root Delay: 0.0937500s
+Root Dispersion: 1.1571229s
+ReferenceId: 0xBFFE0F43 (source IP:  191.254.15.67)
+Last Successful Sync Time: 7/18/2016 12:38:02 PM
+Source: SRVPARDC0018.eur.msd.world.socgen 
+Poll Interval: 15 (32768s)
+
+W32tm /query /configuration  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 
+[Configuration]
+EventLogFlags: 2 (Local)
+AnnounceFlags: 10 (Local)
+TimeJumpAuditOffset: 28800 (Local)
+MinPollInterval: 10 (Local)
+MaxPollInterval: 15 (Local)
+MaxNegPhaseCorrection: 4294967295 (Local)
+MaxPosPhaseCorrection: 4294967295 (Local)
+MaxAllowedPhaseOffset: 300 (Local)
+
+FrequencyCorrectRate: 4 (Local)
+PollAdjustFactor: 5 (Local)
+LargePhaseOffset: 50000000 (Local)
+SpikeWatchPeriod: 900 (Local)
+LocalClockDispersion: 10 (Local)
+HoldPeriod: 5 (Local)
+PhaseCorrectRate: 1 (Local)
+UpdateInterval: 30000 (Local)
+
+
+[TimeProviders]
+NtpClient (Local)
+DllName: C:\Windows\system32\w32time.dll (Local)
+Enabled: 1 (Local)
+InputProvider: 1 (Local)
+CrossSiteSyncFlags: 2 (Local)
+AllowNonstandardModeCombinations: 1 (Local)
+ResolvePeerBackoffMinutes: 15 (Local)
+ResolvePeerBackoffMaxTimes: 7 (Local)
+CompatibilityFlags: 2147483648 (Local)
+EventLogFlags: 1 (Local)
+LargeSampleSkew: 3 (Local)
+SpecialPollInterval: 3600 (Local)
+Type: Nt5DS (Local)
+
+NtpServer (Local)
+DllName: C:\Windows\system32\w32time.dll (Local)
+Enabled: 0 (Local)
+InputProvider: 0 (Local)
+
+
+
+type "C:\ProgramData\VMware\VMware Tools\tools.conf"  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- 

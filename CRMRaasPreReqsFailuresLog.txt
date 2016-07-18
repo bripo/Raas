@@ -1,0 +1,86 @@
+ 
+===========================================================================================
+ 
+				Log Started On 7/18/2016 2:42:06 PM
+ 
+===========================================================================================
+ 
+Enumerating applications on: <.>
+Total applications installed on: <.> : 48
+Now testing local call to WMI CIMv2 object...
+Using Windows a roaming profile is not supported, please user a user account without a Windows roaming profile - FAILED.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+----------------------------------------------------------------------------
+/!\ Potential INCOMPATIBLE server workload or developper tools with RaaS client found on tools machine:  <SRVPARICTP10> : Affected software bellow - FAILED.
+* Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+* Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+* Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+
+----------------------------------------------------------------------------
+/!\ We identifed that this tools machine has potentialy incompatible software with RaaS client.
+Summary for tool machine checks - CRM RaaS prerequisites completed with: 15 failure(s) - FAILED.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Tools machine performance warnings: 4.
+
+/!\No remote server tests performed as no arguments found for script hence ran for local machine only.To run script against remote servers run the script with arguments.
+ 
+===========================================================================================
+ 
+				Log Started On 7/18/2016 2:44:37 PM
+ 
+===========================================================================================
+ 
+Enumerating applications on: <.>
+Total applications installed on: <.> : 48
+Now testing local call to WMI CIMv2 object...
+Using Windows a roaming profile is not supported, please user a user account without a Windows roaming profile - FAILED.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+Number of Processor Cores is not at the required level (atleast 2) - WARNING.
+----------------------------------------------------------------------------
+/!\ Potential INCOMPATIBLE server workload or developper tools with RaaS client found on tools machine:  <SRVPARICTP10> : Affected software bellow - FAILED.
+* Service Pack 3 for SQL Server 2008 (KB2546951) (64-bit) | Install Date: 20130315
+* Update Rollup 10 for Microsoft Dynamics CRM Server (KB2710577)
+* Update Rollup 11 for Microsoft Dynamics CRM Server (KB2739504-v2)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 (64-bit)
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Management Studio | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Native Client | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Setup Support Files  | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server Native Client | Install Date: 20130311 | Version: 9.0
+* Microsoft SQL Server 2008 Common Files | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* Microsoft SQL Server 2008 Client Tools | Install Date: 20130315 | Version: 10.3
+* SQL Server System CLR Types | Install Date: 20130315 | Version: 10.3
+
+
+----------------------------------------------------------------------------
+/!\ We identifed that this tools machine has potentialy incompatible software with RaaS client.
+Summary for tool machine checks - CRM RaaS prerequisites completed with: 15 failure(s) - FAILED.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Tools machine performance warnings: 4.
+
+/!\No remote server tests performed as no arguments found for script hence ran for local machine only.To run script against remote servers run the script with arguments.
